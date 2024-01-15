@@ -1,0 +1,1 @@
+curl --location 'https://cors.cpdevlabs.com/www.britishhorseracing.com/feeds/v1/racecourses' > 

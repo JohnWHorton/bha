@@ -1,0 +1,1275 @@
+{
+    "total": 1490,
+    "per_page": 10,
+    "current_page": 1,
+    "last_page": 149,
+    "from": 1,
+    "to": 10,
+    "data": [
+        {
+            "fixtureId": 629,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-01",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Cheltenham",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-01 12:15:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 5,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 461,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 10,
+            "ticketsLink": "https://www.thejockeyclub.co.uk/cheltenham/events-tickets/",
+            "majorEvent": null,
+            "going": "Soft (GoingStick:6.0 on 01-01-2022 at 06:30)",
+            "weather": "25mm 24th - 31st. Dry overnight. Forecast to be dry throughout the day. 14C.",
+            "other": "COVID PROCEDURES All attendees will be required to demonstrate their COVID status by providing proof of one of the following; - You have been fully vaccinated (two doses) - via the NHS COVID Pass - You have completed a negative Lateral Flow Test (LFT) within 48 hours of attending, ideally within 12 hours - via the NHS COVID Pass, or a valid text or email confirmation from NHS Test & Trace - You are exempt based on approved medical exemption Getting a Digital COVID Pass: https://www.nhs.uk/conditions/coronavirus-covid-19/get-digital-co vid-pass/ There will be no Lateral Flow Testing available on site RACING STAFF Proof of COVID status will be required prior to unloading. Please ensure you have your NHS COVID Pass ready for screening at the dedicated arrival lane FACE COVERINGS Must be worn by all in former Green Zone including the Weighing Room, Pre Parade and Parade Ring, horse walks, stables, saddling boxes and at the start",
+            "stalls": "",
+            "rail": "Rails approximately 10 yards off inner line",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Daniel Andrews"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Michael Roberts"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Jane Southam",
+                        "Jeremy Willis",
+                        "Martin Knight",
+                        "Mel Baker",
+                        "Melanie Sheppard"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Nick Bostock"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Charlie Barlow"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Robert Supple",
+                        "William Jordan"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Guy Upton",
+                        "Shaun Parker",
+                        "Thomas Evetts"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "George Welch"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Kate Maxwell",
+                        "Sally Taylor"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2022,
+                    "raceId": 4998,
+                    "divisionSequence": 0,
+                    "raceName": "THE PADDY POWER NOVICES' STEEPLE CHASE (CLASS 1) (REGISTERED AS THE DIPPER NOVICES' STEEPLE CHASE) (Grade 2) (GBB RACE)",
+                    "horseName": "Gallyhill (IRE)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "13:25:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "12:40:01",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2022,
+                    "raceId": 16460,
+                    "divisionSequence": 0,
+                    "raceName": "THE NEW FOUR EIGHTY RESTAURANT AT CHELTENHAM FESTIVAL HANDICAP STEEPLE CHASE (CLASS 2) (GBB RACE)",
+                    "horseName": "Eclair Surf (FR)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "12:50:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "09:34:04",
+                    "declaredReason": "Vets Cert (Infected Foot)"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2022,
+                    "raceId": 1761,
+                    "divisionSequence": 0,
+                    "raceName": "THE DORNAN ENGINEERING RELKEEL HURDLE RACE (CLASS 1) (Grade 2) (GBB RACE)",
+                    "horseName": "Indefatigable (IRE)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "15:10:00",
+                    "declaredDate": "2021-12-31",
+                    "declaredTime": "09:43:00",
+                    "declaredReason": "Going"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 598,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-01",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Catterick Bridge",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-01 12:25:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 10322,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 9,
+            "ticketsLink": "https://www.catterickbridge.co.uk/Racing/Buy-Tickets",
+            "majorEvent": null,
+            "going": "Soft (GoingStick:5.4 on 01-01-2022 at 09:00) Hurdles: 5.5    Chase:  5.3",
+            "weather": "Dry overnight 4mm rain Thursday night 4mm rain Wednesday morning. Breezy dry afternoon 6mm rain Monday night/Tuesday Forecast: Saturday dry with sunny spells. Very mild",
+            "other": "Head Groundsman: Ed Fenwicke-Clennell - 07831 688625 Please note that all personnel entering the green zone must have proof of a Covid Certificate or a negative lateral flow",
+            "stalls": "",
+            "rail": "Both bends dolled out 2yds",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Beth Dowswell"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Karl Curran"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Alec Dent",
+                        "David Cook",
+                        "Graham Gray",
+                        "Joe O'Gorman"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Di Clark"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Michael Eyre"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Jason Callaghan",
+                        "Russell Garritty"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Alan Dempsey",
+                        "Robert McCarthy"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Rosie Pearson"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Mark Collins"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2022,
+                    "raceId": 1635,
+                    "divisionSequence": 0,
+                    "raceName": "THE RANDALL ORCHARD LOOKING FOR 100 WINNERS HANDICAP HURDLE RACE (CLASS 5)",
+                    "horseName": "Balkotic (FR)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "13:00:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "10:53:37",
+                    "declaredReason": "Self Cert (Cast in Box)"
+                },
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2022,
+                    "raceId": 1635,
+                    "divisionSequence": 0,
+                    "raceName": "THE RANDALL ORCHARD LOOKING FOR 100 WINNERS HANDICAP HURDLE RACE (CLASS 5)",
+                    "horseName": "That's My Dubai (IRE)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "13:00:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "08:30:44",
+                    "declaredReason": "Self Cert (Not Sound)"
+                },
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2022,
+                    "raceId": 54908,
+                    "divisionSequence": 0,
+                    "raceName": "THE racingtv.com HANDICAP STEEPLE CHASE (CLASS 5) (Go North Red Rum Series Qualifier)",
+                    "horseName": "Choctaw Brave (IRE)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "14:45:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "07:17:58",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                },
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2022,
+                    "raceId": 1490,
+                    "divisionSequence": 0,
+                    "raceName": "THE HAPPY NEW YEAR FROM VICKERS BET NOVICES' LIMITED HANDICAP STEEPLE CHASE (CLASS 3) (GBB RACE)",
+                    "horseName": "Castle Robin (IRE)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "13:35:00",
+                    "declaredDate": "2021-12-31",
+                    "declaredTime": "10:53:23",
+                    "declaredReason": "Vets Cert (Bruised Foot)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 20356,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-01",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Musselburgh",
+            "alertLevel": 5,
+            "region": "Scotland",
+            "tier": "4",
+            "firstRace": "2022-01-01 12:30:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 21469,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 15,
+            "ticketsLink": "http://www.musselburgh-racecourse.co.uk/buy-tickets-online.asp",
+            "majorEvent": null,
+            "going": "Good to Soft, Soft (in places)",
+            "weather": "Broken Showers. 8mm rain yesterday. An unsettled outlook through to Monday with showers continuing to cross the area and temperatures dropping to normal for the time of year.",
+            "other": "For regular going updates please follow @MussGoingUpdate on Twitter or check the Musselburgh Racecourse website www.musselburgh-racecourse.co.uk Events in Scotland are restricted to 500 spectators. Owners, Trainers and Staff are not included in this number. Owners should book badges and lunches by 4pm the day before racing and requests for extra badges will be met if possible.",
+            "stalls": "",
+            "rail": "The bottom bend is split. Hurdles moved out 6m and Chases moved out 4m. The steeplechase fences and hurdles have been moved to provide fresh ground, which is taking the rain very well.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Anne Ray"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Michael Hamilton"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "James Bonar",
+                        "Linda Porter",
+                        "Tracey Hamilton"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "William Fraser Perratt"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Lyndsay Allan"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Lauren Thomson"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Michael Reid",
+                        "Ryan Colley"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Adrian Sharpe",
+                        "Adrian Smith"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Philip Spottiswood"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Tim Davies"
+                    ]
+                }
+            ],
+            "nonRunners": [],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1553,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-01",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Southwell",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-01 12:33:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 8,
+            "fixtureName": null,
+            "fixtureType": "FLAT",
+            "meetingId": 11509,
+            "racingTrackType": "AWT",
+            "racePlanningCode": "NORMAL",
+            "courseId": 47,
+            "ticketsLink": "http://www.southwell-racecourse.co.uk/whats-on/fixtures/?a=whats-on",
+            "majorEvent": null,
+            "going": "Standard to Slow",
+            "weather": "Dry with sunny intervals and a fresh breeze.",
+            "other": "",
+            "stalls": "5f centre, Remainder Inside.",
+            "rail": "",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Stephanie Swanney"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Claudia Marelli"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Jo Hardy",
+                        "Louise Todd",
+                        "Shaun Mitchell"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "David Hicks"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Seamus O'Flaherty"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Lee Jones",
+                        "Stephen Taylor"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Greg Pearson",
+                        "Louise Moore"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Peter Crafts"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Jocelyn Habershon-Butcher"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 1553,
+                    "fixtureYear": 2022,
+                    "raceId": 48473,
+                    "divisionSequence": 0,
+                    "raceName": "THE BETWAY HANDICAP STAKES (CLASS 2)",
+                    "horseName": "Protected Guest",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "16:00:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "09:31:15",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                },
+                {
+                    "fixtureId": 1553,
+                    "fixtureYear": 2022,
+                    "raceId": 11253,
+                    "divisionSequence": 0,
+                    "raceName": "THE BETWAY MEDIAN AUCTION MAIDEN STAKES (CLASS 5) (GBB RACE)",
+                    "horseName": "Oasis Irlandes",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "14:53:00",
+                    "declaredDate": "2021-12-31",
+                    "declaredTime": "16:34:06",
+                    "declaredReason": "Vets Cert (Temperature)"
+                },
+                {
+                    "fixtureId": 1553,
+                    "fixtureYear": 2022,
+                    "raceId": 18406,
+                    "divisionSequence": 0,
+                    "raceName": "THE MANSIONBET PROUD PARTNERS OF THE AWC HANDICAP STAKES (CLASS 6) (DIV I)",
+                    "horseName": "Chateau Peapod",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "12:33:00",
+                    "declaredDate": "2021-12-31",
+                    "declaredTime": "14:52:23",
+                    "declaredReason": "Vets Cert (Runny Nose)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 692,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-01",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Exeter",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-01 12:40:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 504,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 13,
+            "ticketsLink": "https://www.thejockeyclub.co.uk/exeter/events-tickets/",
+            "majorEvent": null,
+            "going": "Heavy, Soft (in places) Drying conditions, therefore we have re-introduced Soft places into the home-straight. (GoingStick:5.5 on 30-12-2021 at 08:00)",
+            "weather": "Dry overnight. Dry today, cloudy/sunny spells. Mild 14C. 34mm Saturday. 19mm Monday. 16mm Tuesday overnight. 3mm Wednesday overnight.",
+            "other": "Plan B Covid measures and enforced face coverings apply. COVID PASS or a negative LFT result will be required for public, and weighing room access. The weighing room entrance will be reduced to the main front door only, to pass through our screening process",
+            "stalls": "",
+            "rail": "Winning line through to Exeter bend out by 5yds from innermost position. A shared Exeter bend increases hurdle distance and reduces chase distance, rail out +6yds from inner. Separate Plymouth home-turn bend +6yds from inner. All hurdles remain outer by 2-pads width.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Josie Brown"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Georgina Robarts"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Christopher Maiden",
+                        "Lisa Cook",
+                        "Michael Turner",
+                        "Thomas Vincent McKevitt"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Emily Jones"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Chris Hill"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Sophia Upton",
+                        "Wayne Hutchinson"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Richard Westropp",
+                        "Steve Drowne"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Charlie Lane"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "David Freeman"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2022,
+                    "raceId": 31632,
+                    "divisionSequence": 0,
+                    "raceName": "THE THURLESTONE HOTEL 'NATIONAL HUNT' MAIDEN HURDLE RACE (CLASS 4) (GBB RACE)",
+                    "horseName": "Annie Nail (IRE)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "13:15:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "07:26:23",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2022,
+                    "raceId": 17915,
+                    "divisionSequence": 0,
+                    "raceName": "THE JOCKEY CLUB CHELTENHAM AND SW SYNDICATE OPEN MAIDEN NATIONAL HUNT FLAT RACE (CLASS 5) (GBB RACE)",
+                    "horseName": "Dom Bosco",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "16:05:00",
+                    "declaredDate": "2021-12-31",
+                    "declaredTime": "16:06:00",
+                    "declaredReason": "Going"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 20355,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-01",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Fakenham",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-01 12:45:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 21468,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 17,
+            "ticketsLink": "http://www.fakenhamracecourse.co.uk/racing/book-tickets/",
+            "majorEvent": null,
+            "going": "Soft With forecast ground will dry but I think will remain soft as will cut up and be loose but will not be holding ground. (GoingStick:5.5 on 01-01-2022 at 07:10)",
+            "weather": "Partly Cloudy. Dry, mild and windy Fri night. Forecast: Sat dry, mild, broken cloud.",
+            "other": "I hope everyone has had a great Christmas. If you have any questions please give me a call on 07767802206. Enjoy the festive season and we look forward to seeing you here on New Year's Day. David Hunter",
+            "stalls": "",
+            "rail": "Fresh strip of ground on hurdle bends.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Kate Smith"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Jeremy Lind"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "John Bramhill",
+                        "Karen West",
+                        "Sarah Duncan"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Paul Champion"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Ben Ford"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Joseph Kieran O'Shea",
+                        "William Jardine"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Anthony McGlone",
+                        "Gordan Markham"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Ian Comer"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Naomi Mellor"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 20355,
+                    "fixtureYear": 2022,
+                    "raceId": 20949,
+                    "divisionSequence": 0,
+                    "raceName": "THE FAKENHAM RACECOURSE HANDICAP HURDLE RACE (CLASS 3) (Fakenham Double Up Bonus Race)",
+                    "horseName": "Brainstorm (FR)",
+                    "fixtureDate": "2022-01-01",
+                    "raceTime": "14:30:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "08:05:25",
+                    "declaredReason": "Self Cert (Cut Leg)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1198,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-02",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Newcastle",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-02 11:55:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "FLAT",
+            "meetingId": 900,
+            "racingTrackType": "AWT",
+            "racePlanningCode": "NORMAL",
+            "courseId": 35,
+            "ticketsLink": "http://www.newcastle-racecourse.co.uk/whats-on/fixtures/?a=whats-on",
+            "majorEvent": null,
+            "going": "Standard to Slow 3rd meeting since the course was decompacted",
+            "weather": "Forecast to be mild and showery in the run up to this meeting with a 10mph South Westerly breeze on raceday",
+            "other": "",
+            "stalls": "Straight: Centre 1m2f & 1m4f: Outside 2m: Inside",
+            "rail": "",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Stephanie Swanney"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Wayne Burnell"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Alec Dent",
+                        "David Cook",
+                        "Graham Gray"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Nicholas Hargreave"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Michael Eyre"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Jason Callaghan",
+                        "Stuart Turner"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Alan Dempsey",
+                        "Robert McCarthy"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Tim Davies"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 1198,
+                    "fixtureYear": 2022,
+                    "raceId": 49093,
+                    "divisionSequence": 0,
+                    "raceName": "THE MANSIONBET PROUD PARTNERS OF AWC CONDITIONS STAKES (CLASS 2) (All-Weather Championships Fast-Track Qualifier)",
+                    "horseName": "Crackling (IRE)",
+                    "fixtureDate": "2022-01-02",
+                    "raceTime": "14:05:00",
+                    "declaredDate": "2022-01-02",
+                    "declaredTime": "08:28:22",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1327,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-02",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Plumpton",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-02 12:08:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 989,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 40,
+            "ticketsLink": "https://tickets.plumptonracecourse.co.uk/shop/cart.pl",
+            "majorEvent": null,
+            "going": "Soft (GoingStick:5.8 on 31-12-2021 at 07:30) Chase- 5.8 Hurdle- 6.1",
+            "weather": "4mm of rain overnight. Some light rain showers hanging around at the moment, expected to clear at sunrise. Rest of the morning looks dry with sunny spells and the chance of some rain showers in the afternoon. Wind is expected to increase during the afternoon.",
+            "other": "Face masks must be worn in the Stables & Parade Ring. Weighing Room will require Covid Passport or proof of negative LFT to gain entry.",
+            "stalls": "",
+            "rail": "Split bends in  for this meeting. Chase- Top bend 1yd from innermost line. Bottom bend on innermost line Hurdle- Top bend 3yds from innermost line. Bottom bend 2yds from inner most line.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Cody Watkins"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Leigh O'Brien"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Carol Broodbank",
+                        "Peter Double",
+                        "Sarah Collins"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Jane Green"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Kate Smith"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "James Stenning",
+                        "Steven Avis"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Fergus Sweeney",
+                        "Sam Angell"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "John Paxman"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Howard Robinson"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 1327,
+                    "fixtureYear": 2022,
+                    "raceId": 5909,
+                    "divisionSequence": 0,
+                    "raceName": "THE SKY SPORTS RACING SUSSEX NATIONAL HANDICAP STEEPLE CHASE (CLASS 3)",
+                    "horseName": "Coup de Pinceau (FR)",
+                    "fixtureDate": "2022-01-02",
+                    "raceTime": "14:20:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "17:01:11",
+                    "declaredReason": "Self Cert (Bruised Foot)"
+                },
+                {
+                    "fixtureId": 1327,
+                    "fixtureYear": 2022,
+                    "raceId": 14198,
+                    "divisionSequence": 0,
+                    "raceName": "THE ZOE DAVISON MEMORIAL HANDICAP HURDLE RACE (CLASS 4)",
+                    "horseName": "Ar Mest (FR)",
+                    "fixtureDate": "2022-01-02",
+                    "raceTime": "15:30:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "11:48:05",
+                    "declaredReason": "Self Cert (Bruised Foot)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 467,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-02",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Ayr",
+            "alertLevel": 5,
+            "region": "Scotland",
+            "tier": "4",
+            "firstRace": "2022-01-02 12:15:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 14069,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 2,
+            "ticketsLink": "http://www.ayr-racecourse.co.uk/the-races/tickets",
+            "majorEvent": null,
+            "going": "Soft, Heavy (in places) (GoingStick:5.3 on 02-01-2022 at 07:05) Chase: 5.3 Hurdle: 5.2",
+            "weather": "Cloudy. 4.5mm past 24hrs  ( 16mm Since Decs) Sun: Chance Showers Through The Day & Windy Gusts In Afternoon",
+            "other": "Stable Manager For This Fixture Is Shaun Russell  07759595914",
+            "stalls": "",
+            "rail": "Chase Rail Out 3yds Hurdle Bends Out 9yds",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Anne Ray"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Michael Hamilton"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "James Bonar",
+                        "Linda Porter",
+                        "Rachel Kirtley",
+                        "Tracey Hamilton"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "William Fraser Perratt"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Lyndsay Allan"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Lauren Thomson"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Andrew Parker",
+                        "Michael Reid"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Adrian Sharpe",
+                        "Adrian Smith"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "John Wilson"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Arthur KIdd"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 467,
+                    "fixtureYear": 2022,
+                    "raceId": 31483,
+                    "divisionSequence": 0,
+                    "raceName": "THE WESTERN HOUSE HOTEL GIFT VOUCHERS MAIDEN HURDLE RACE (CLASS 4) (GBB RACE)",
+                    "horseName": "Chinese Spirit (IRE)",
+                    "fixtureDate": "2022-01-02",
+                    "raceTime": "13:20:00",
+                    "declaredDate": "2022-01-02",
+                    "declaredTime": "10:12:44",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 467,
+                    "fixtureYear": 2022,
+                    "raceId": 836,
+                    "divisionSequence": 0,
+                    "raceName": "THE AYR RACECOURSE GIFT VOUCHERS HANDICAP HURDLE RACE (CLASS 5) (Go North Cab On Target Series Qualifier)",
+                    "horseName": "Force de Frap (FR)",
+                    "fixtureDate": "2022-01-02",
+                    "raceTime": "12:45:00",
+                    "declaredDate": "2022-01-01",
+                    "declaredTime": "21:50:41",
+                    "declaredReason": "Self Cert (Bruised Foot)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 20575,
+            "fixtureYear": 2022,
+            "fixtureDate": "2022-01-03",
+            "BSTime": "06:26:06",
+            "distance": null,
+            "courseName": "Southwell",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2022-01-03 12:20:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 21688,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 47,
+            "ticketsLink": "http://www.southwell-racecourse.co.uk/whats-on/fixtures/?a=whats-on",
+            "majorEvent": null,
+            "going": "Good to Soft, Soft (in places) Area of Soft - Final 1/3rd of turn home bend (GoingStick:6.0 on 03-01-2022 at 06:30)",
+            "weather": "Rainfall - 14mm Sunday and a further 2mm this morning. Light cloud with sunny intervals and a fresh SW breeze.",
+            "other": "",
+            "stalls": "",
+            "rail": "Fences on the outside. Both bends moved to the outside onto fresh ground.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Chris Hill"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Claudia Marelli"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Karen West",
+                        "Shaun Mitchell",
+                        "Will Seely"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Di Clark"
+                    ]
+                },
+                {
+                    "category": "Social Distancing Officer",
+                    "officials": [
+                        "Michael Eyre"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Joseph Kieran O'Shea",
+                        "William Jardine"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Anthony McGlone",
+                        "Gordan Markham"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Peter Crafts"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Jocelyn Habershon-Butcher"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 20575,
+                    "fixtureYear": 2022,
+                    "raceId": 59188,
+                    "divisionSequence": 0,
+                    "raceName": "THE WATCH OFF THE FENCE ON attheraces.com HANDICAP HURDLE RACE (CLASS 5)",
+                    "horseName": "Dare To Begin (IRE)",
+                    "fixtureDate": "2022-01-03",
+                    "raceTime": "15:20:00",
+                    "declaredDate": "2022-01-03",
+                    "declaredTime": "08:57:19",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                },
+                {
+                    "fixtureId": 20575,
+                    "fixtureYear": 2022,
+                    "raceId": 59188,
+                    "divisionSequence": 0,
+                    "raceName": "THE WATCH OFF THE FENCE ON attheraces.com HANDICAP HURDLE RACE (CLASS 5)",
+                    "horseName": "Independence (USA)",
+                    "fixtureDate": "2022-01-03",
+                    "raceTime": "15:20:00",
+                    "declaredDate": "2022-01-03",
+                    "declaredTime": "08:27:37",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 20575,
+                    "fixtureYear": 2022,
+                    "raceId": 59184,
+                    "divisionSequence": 0,
+                    "raceName": "THE OFF THE FENCE ON youtube.com/attheraces OPEN MAIDEN NATIONAL HUNT FLAT RACE (CLASS 5) (Category 3 Elimination) (GBB RACE)",
+                    "horseName": "That's The Spirit",
+                    "fixtureDate": "2022-01-03",
+                    "raceTime": "13:20:00",
+                    "declaredDate": "2022-01-03",
+                    "declaredTime": "08:06:35",
+                    "declaredReason": "Self Cert (Rash)"
+                }
+            ],
+            "resultsAvailable": true
+        }
+    ]
+}

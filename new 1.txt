@@ -1,0 +1,6 @@
+composer create-project laravel/laravel chirper
+cd chirper/
+php artisan serve
+composer require laravel/breeze --dev
+php artisan breeze:install vue
+npm run dev

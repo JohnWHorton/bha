@@ -1,0 +1,61 @@
+
+https://www.britishhorseracing.com/feeds/v3/fixtures?courseId=27&courseName=Kempton+Park&fields=courseId,courseName,fixtureDate,fixtureType,fixtureSession,abandonedReasonCode,highlightTitle&month=7&order=desc&resultsAvailable=true&year=2023
+
+{
+    "total": 2,
+    "per_page": 10,
+    "current_page": 1,
+    "last_page": 1,
+    "from": 1,
+    "to": 2,
+    "data": [
+        {
+            "fixtureId": 986,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-07-12",
+            "BSTime": "07:10:42",
+            "distance": null,
+            "courseName": "Kempton Park",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-07-12 18:00:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "courseId": 27,
+            "fixtureType": "FLAT",
+            "fixtureSession": "EVENING",
+            "abandonedReasonCode": 0,
+            "fixtureName": null,
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1290,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-07-06",
+            "BSTime": "07:10:42",
+            "distance": null,
+            "courseName": "Kempton Park",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-07-06 17:50:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "courseId": 27,
+            "fixtureType": "FLAT",
+            "fixtureSession": "EVENING",
+            "abandonedReasonCode": 0,
+            "fixtureName": null,
+            "resultsAvailable": true
+        }
+    ]
+}

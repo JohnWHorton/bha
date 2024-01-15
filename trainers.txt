@@ -1,0 +1,92 @@
+https://www.britishhorseracing.com/feeds/v3/trainers
+
+{
+"total": 553,
+"per_page": 10,
+"current_page": 1,
+"last_page": 56,
+"from": 1,
+"to": 10,
+"data": [
+{
+"trainerId": 505749,
+"trainerStyle": "N. W. Alexander",
+"fullName": "Nick Walter Alexander",
+"licenceType": "Combined",
+"numberOfDaysSinceLastWin": 2,
+"county": "Fife"
+},
+{
+"trainerId": 552588,
+"trainerStyle": "Louise Allan",
+"fullName": "Victoria Louise Allan",
+"licenceType": "Combined",
+"numberOfDaysSinceLastWin": 41,
+"county": "Cambridgeshire"
+},
+{
+"trainerId": 536527,
+"trainerStyle": "Conrad Allen",
+"fullName": "Conrad Norman Allen",
+"licenceType": "Combined",
+"numberOfDaysSinceLastWin": 24,
+"county": "Suffolk"
+},
+{
+"trainerId": 928632,
+"trainerStyle": "Sam Allwood",
+"fullName": "Samuel James Allwood",
+"licenceType": "Jump",
+"numberOfDaysSinceLastWin": 138,
+"county": "Shropshire"
+},
+{
+"trainerId": 549484,
+"trainerStyle": "Michael Appleby",
+"fullName": "Michael Appleby",
+"licenceType": "Combined",
+"numberOfDaysSinceLastWin": 2,
+"county": "Leicestershire"
+},
+{
+"trainerId": 540849,
+"trainerStyle": "Charlie Appleby",
+"fullName": "Charles Edward James Appleby",
+"licenceType": "Flat",
+"numberOfDaysSinceLastWin": 3,
+"county": "Suffolk"
+},
+{
+"trainerId": 1088509,
+"trainerStyle": "Billy Aprahamian",
+"fullName": "Billy Aprahamian",
+"licenceType": "Combined",
+"numberOfDaysSinceLastWin": 115,
+"county": "Northamptonshire"
+},
+{
+"trainerId": 520139,
+"trainerStyle": "Richard Armson",
+"fullName": "Richard John Armson",
+"licenceType": "Permit",
+"numberOfDaysSinceLastWin": 263,
+"county": "Derbyshire"
+},
+{
+"trainerId": 504056,
+"trainerStyle": "Peter Atkinson",
+"fullName": "Peter George Atkinson",
+"licenceType": "Permit",
+"numberOfDaysSinceLastWin": 13,
+"county": "North Yorkshire"
+},
+{
+"trainerId": 534121,
+"trainerStyle": "Michael Attwater",
+"fullName": "Michael James Attwater",
+"licenceType": "Combined",
+"numberOfDaysSinceLastWin": 24,
+"county": "Surrey"
+}
+]
+}

@@ -1,0 +1,1589 @@
+{
+    "total": 1495,
+    "per_page": 10,
+    "current_page": 1,
+    "last_page": 150,
+    "from": 1,
+    "to": 10,
+    "data": [
+        {
+            "fixtureId": 629,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-01",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Cheltenham",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-01 12:10:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 4,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": "New Year's Day",
+            "fixtureType": "JUMP",
+            "meetingId": 461,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 10,
+            "ticketsLink": "https://www.thejockeyclub.co.uk/cheltenham/events-tickets/",
+            "majorEvent": 0,
+            "going": "Soft, Good to Soft (in places) (GoingStick:5.7 on 30-12-2022 at 13:30)",
+            "weather": "12mm 28th-30th. 5mm overnight Friday and a further 5mm during Saturday. Dry forecast today.  Temperatures +11 degrees.",
+            "other": "Owners badges available to book through the PASS system.",
+            "stalls": "",
+            "rail": "Chase and hurdle rails +10y",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Kate Smith"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Chris Hill"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Jane Southam",
+                        "Jeremy Willis",
+                        "Martin Knight",
+                        "Mel Baker",
+                        "Melanie Sheppard"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Nick Bostock"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Daniel Andrews"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Sophia Upton",
+                        "William Jordan"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Guy Upton",
+                        "Shaun Parker",
+                        "Thomas Evetts"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "George Welch"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Graham Potts",
+                        "Kate Maxwell"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 1666,
+                    "divisionSequence": 0,
+                    "raceName": "THE PADDY POWER NEW YEAR'S DAY HANDICAP STEEPLE CHASE (CLASS 1) (PREMIER HANDICAP) (GBB RACE)",
+                    "horseName": "Sebastopol (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:55:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "13:00:39",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 16460,
+                    "divisionSequence": 0,
+                    "raceName": "THE AIS HANDICAP STEEPLE CHASE (CLASS 2) (GBB RACE)",
+                    "horseName": "Switch Hitter (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:45:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "11:23:15",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 1668,
+                    "divisionSequence": 0,
+                    "raceName": "THE PADDY POWER HANDICAP HURDLE RACE (CLASS 2) (GBB RACE)",
+                    "horseName": "Peking Rose",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "15:05:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "10:18:22",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 16460,
+                    "divisionSequence": 0,
+                    "raceName": "THE AIS HANDICAP STEEPLE CHASE (CLASS 2) (GBB RACE)",
+                    "horseName": "Found On (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:45:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:54:35",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 17056,
+                    "divisionSequence": 0,
+                    "raceName": "THE JCB \"JUNIOR\" NATIONAL HUNT FLAT RACE (A STANDARD OPEN NATIONAL HUNT FLAT RACE) (CLASS 1) (Listed Race) (GBB RACE)",
+                    "horseName": "Shinji (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "15:40:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:53:49",
+                    "declaredReason": "Self Cert (Blood Analysis Not Normal)"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 4998,
+                    "divisionSequence": 0,
+                    "raceName": "THE PADDY POWER NOVICES' STEEPLE CHASE (CLASS 1) (REGISTERED AS THE DIPPER NOVICES' STEEPLE CHASE) (Grade 2) (GBB RACE)",
+                    "horseName": "Mortlach",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:20:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:19:52",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 17056,
+                    "divisionSequence": 0,
+                    "raceName": "THE JCB \"JUNIOR\" NATIONAL HUNT FLAT RACE (A STANDARD OPEN NATIONAL HUNT FLAT RACE) (CLASS 1) (Listed Race) (GBB RACE)",
+                    "horseName": "Scratch Card (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "15:40:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "07:28:25",
+                    "declaredReason": "Self Cert (Blood Analysis Not Normal)"
+                },
+                {
+                    "fixtureId": 629,
+                    "fixtureYear": 2023,
+                    "raceId": 13289,
+                    "divisionSequence": 0,
+                    "raceName": "THE BALLYMORE MAIDEN HURDLE RACE (CLASS 2) (GBB RACE)",
+                    "horseName": "Iliko d'Olivate (FR)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:10:00",
+                    "declaredDate": "2022-12-30",
+                    "declaredTime": "18:29:38",
+                    "declaredReason": "Self Cert (Bruised Foot)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 692,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-01",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Exeter",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-01 12:20:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": "New Year's Day",
+            "fixtureType": "JUMP",
+            "meetingId": 504,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 13,
+            "ticketsLink": "https://www.thejockeyclub.co.uk/exeter/events-tickets/",
+            "majorEvent": 0,
+            "going": "Racing goes ahead (GoingStick:5.9 on 30-12-2022 at 07:45)",
+            "weather": "Total on Saturday 26mm up to midnight. 2mm so far on Sunday ealry hours. Raceday: odd squally shower, cloudy start then sunny breaks.",
+            "other": "",
+            "stalls": "",
+            "rail": "Winning line out 13yds. Exeter bend: Hurdle out 6yds. Chase innermost true separate bend. Plymouth home-turn bend: Hurdle out by 4yds. Chase innermost true separate bend. Home straight hurdles in new, fresh positions out by 2 pads-width. Last hurdle back straight omitted.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Josie Brown"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Robert Cuthbert"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Lisa Cook",
+                        "Steve Fox",
+                        "Stuart Shilston",
+                        "Thomas Vincent McKevitt"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Guy Lewis"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Milly Bersey"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Ciaran McKee",
+                        "Wayne Hutchinson"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Sophie Candy",
+                        "Steve Drowne"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Bethan Cook"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2010,
+                    "divisionSequence": 0,
+                    "raceName": "THE WATCH ON RACING TV NOVICES' HURDLE RACE (CLASS 4) (Novices' Championship Hurdle Series Qualifier) (GBB RACE)",
+                    "horseName": "Danton (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:30:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "10:19:46",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2006,
+                    "divisionSequence": 0,
+                    "raceName": "THE RACING TV HD ON SKY 426 MARES' HANDICAP HURDLE RACE (CLASS 4) (Challenger Mares' Hurdle Series Qualifier)",
+                    "horseName": "Progressive",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:55:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "09:49:01",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2008,
+                    "divisionSequence": 0,
+                    "raceName": "THE NAF HANDICAP STEEPLE CHASE (CLASS 4)",
+                    "horseName": "Southern Sam",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:40:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "09:01:42",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 31632,
+                    "divisionSequence": 0,
+                    "raceName": "THE THURLESTONE HOTEL 'NATIONAL HUNT' MAIDEN HURDLE RACE (CLASS 4) (GBB RACE)",
+                    "horseName": "Keable (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:05:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:50:49",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2010,
+                    "divisionSequence": 0,
+                    "raceName": "THE WATCH ON RACING TV NOVICES' HURDLE RACE (CLASS 4) (Novices' Championship Hurdle Series Qualifier) (GBB RACE)",
+                    "horseName": "Pencil (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:30:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:33:19",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 38042,
+                    "divisionSequence": 0,
+                    "raceName": "THE HAPPY NEW YEAR HANDICAP STEEPLE CHASE (CLASS 5)",
+                    "horseName": "Magnificent Ben (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "15:15:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:06:53",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 14294,
+                    "divisionSequence": 0,
+                    "raceName": "THE PASSAGE HOUSE INN NOVICES' HANDICAP STEEPLE CHASE (CLASS 4) (GBB RACE)",
+                    "horseName": "Dom of Mary (FR)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:20:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "07:55:55",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2010,
+                    "divisionSequence": 0,
+                    "raceName": "THE WATCH ON RACING TV NOVICES' HURDLE RACE (CLASS 4) (Novices' Championship Hurdle Series Qualifier) (GBB RACE)",
+                    "horseName": "Freddy Boy",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:30:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "07:55:24",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 31632,
+                    "divisionSequence": 0,
+                    "raceName": "THE THURLESTONE HOTEL 'NATIONAL HUNT' MAIDEN HURDLE RACE (CLASS 4) (GBB RACE)",
+                    "horseName": "Imperial Alex (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:05:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "18:53:44",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 14294,
+                    "divisionSequence": 0,
+                    "raceName": "THE PASSAGE HOUSE INN NOVICES' HANDICAP STEEPLE CHASE (CLASS 4) (GBB RACE)",
+                    "horseName": "Dibble Decker (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:20:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "18:51:14",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2008,
+                    "divisionSequence": 0,
+                    "raceName": "THE NAF HANDICAP STEEPLE CHASE (CLASS 4)",
+                    "horseName": "Samuel Jackson",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:40:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "06:34:04",
+                    "declaredReason": "Self Cert (Other)"
+                },
+                {
+                    "fixtureId": 692,
+                    "fixtureYear": 2023,
+                    "raceId": 2010,
+                    "divisionSequence": 0,
+                    "raceName": "THE WATCH ON RACING TV NOVICES' HURDLE RACE (CLASS 4) (Novices' Championship Hurdle Series Qualifier) (GBB RACE)",
+                    "horseName": "Instant Gambler (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:30:00",
+                    "declaredDate": "2022-12-30",
+                    "declaredTime": "12:09:52",
+                    "declaredReason": "Self Cert (Going)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 50001,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-01",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Musselburgh",
+            "alertLevel": 5,
+            "region": "Scotland",
+            "tier": "4",
+            "firstRace": "2023-01-01 12:25:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 22393,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 15,
+            "ticketsLink": "http://www.musselburgh-racecourse.co.uk/buy-tickets-online.asp",
+            "majorEvent": null,
+            "going": "Soft 11mm overnight into morning. (GoingStick:5.8 on 01-01-2023 at 07:00)",
+            "weather": "Cloudy. Rain has stopped. Chance of a light shower.",
+            "other": "For regular going updates please follow @MussGoingUpdate on Twitter or check the Musselburgh Racecourse website www.musselburgh-racecourse.co.uk",
+            "stalls": "",
+            "rail": "",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Gwen Thomas"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Michael Hamilton"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "James Bonar",
+                        "Linda Porter",
+                        "Tracey Hamilton"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "William Fraser Perratt"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Lyndsay Allan"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Andrew Parker",
+                        "Michael Reid"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Adrian Sharpe",
+                        "Adrian Smith"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Franki Clark"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Duncan Macdonald"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 21847,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES HOGMANEIGH HANDICAP HURDLE RACE (CLASS 2) (GBB RACE)",
+                    "horseName": "Parisencore (FR)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:45:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "13:20:23",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 58762,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES NEW YEARS DAY NOVICES' HANDICAP STEEPLE CHASE (CLASS 5)",
+                    "horseName": "The Great Georgie",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:10:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "12:59:44",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 23493,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES HAPPY NEW YEAR HANDICAP HURDLE RACE (CLASS 4) (Go North Brindisi Breeze Series Qualifier)",
+                    "horseName": "Starlyte (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:00:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:38:28",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 21851,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES 'AULD REEKIE' HANDICAP STEEPLE CHASE (CLASS 2) (GBB RACE)",
+                    "horseName": "Baron de Midleton (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:35:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:20:48",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 21846,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES FIRST FOOT JUVENILE HURDLE RACE (CLASS 4) (Go North Grey Bomber Series Qualifier) (GBB RACE)",
+                    "horseName": "Freddy Robinson",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:25:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:20:24",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 21850,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES HAIR OF THE DOG HANDICAP HURDLE RACE (CLASS 3)",
+                    "horseName": "Navajo Pass",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "15:20:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "13:21:38",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 50001,
+                    "fixtureYear": 2023,
+                    "raceId": 21851,
+                    "divisionSequence": 0,
+                    "raceName": "THE FITZDARES 'AULD REEKIE' HANDICAP STEEPLE CHASE (CLASS 2) (GBB RACE)",
+                    "horseName": "Dubai Days (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:35:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "11:34:16",
+                    "declaredReason": "Going"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 50000,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-01",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Fakenham",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-01 12:35:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 22392,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 17,
+            "ticketsLink": "http://www.fakenhamracecourse.co.uk/racing/book-tickets/",
+            "majorEvent": null,
+            "going": "Good to Soft, Soft (in places) Soft in two dips. (GoingStick:5.0 on 31-12-2022 at 10:10)",
+            "weather": "Partly Cloudy. Sat 15mm rain, dry from 10pm. Forecast: Sun dry, breezy, rain showers late afternoon.",
+            "other": "A very Happy Christmas to you. Have a lovely festive time, safe travels and we all look forward to seeing you at Fakenham on NYD. Any questions please give me a call on 07767802206. David Hunter",
+            "stalls": "",
+            "rail": "Wide strip of fresh ground whole way around the hurdle course. Fresh ground on bends on chase course.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Polly Greco"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Jeremy Lind"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Elizabeth Budden",
+                        "Julie Lingham",
+                        "Sarah Duncan"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Paul Champion"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Ben Ford"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Joseph Kieran O'Shea",
+                        "William Jardine"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Anthony McGlone",
+                        "Gordan Markham"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Ian Comer"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Colin Roberts"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 50000,
+                    "fixtureYear": 2023,
+                    "raceId": 20947,
+                    "divisionSequence": 0,
+                    "raceName": "THE PADDY POWER HANDICAP HURDLE RACE (CLASS 4)",
+                    "horseName": "Templehills (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:20:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "11:35:00",
+                    "declaredReason": "Vets Cert (Other)"
+                },
+                {
+                    "fixtureId": 50000,
+                    "fixtureYear": 2023,
+                    "raceId": 20949,
+                    "divisionSequence": 0,
+                    "raceName": "THE GAMBLE PLANT NORFOLK LTD GRAND PRIX HANDICAP HURDLE RACE (CLASS 3)",
+                    "horseName": "Plenty of Time (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:55:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "10:50:41",
+                    "declaredReason": "Self Cert (Knocked Joint)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 598,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-01",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Catterick Bridge",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-01 12:40:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 6,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 10322,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 9,
+            "ticketsLink": "https://www.catterickbridge.co.uk/Racing/Buy-Tickets",
+            "majorEvent": null,
+            "going": "Soft, Heavy (in places) (GoingStick:5.6 on 01-01-2023 at 08:45) Chase:  5.4    Hurdles: 5.7",
+            "weather": "9mm rain overnight 8mm rain Friday Forecast: Dry & overcast day. 9C",
+            "other": "Head Groundsman:  Ed Fenwicke-Clennell 07721 393259",
+            "stalls": "",
+            "rail": "Both bends dolled out 2yds from racing on 28th December",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Lauren Thomson"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Wayne Burnell"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Alec Dent",
+                        "David Cook",
+                        "Graham Gray",
+                        "Joe O'Gorman"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Di Clark"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Philippa Hardy"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Jason Callaghan",
+                        "Stuart Turner"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Alan Dempsey",
+                        "Michael Eyre"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Rosie Pearson"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Mark Collins"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2023,
+                    "raceId": 1635,
+                    "divisionSequence": 0,
+                    "raceName": "THE DOWNLOAD THE VICKERS.BET APP HANDICAP HURDLE RACE (CLASS 5)",
+                    "horseName": "Oliver's Island (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:15:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "08:56:27",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                },
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2023,
+                    "raceId": 1486,
+                    "divisionSequence": 0,
+                    "raceName": "THE HAPPY NEW YEAR NOVICES' HURDLE RACE (CLASS 4) (GBB RACE)",
+                    "horseName": "Missy Ava (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "12:40:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "07:44:33",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2023,
+                    "raceId": 1488,
+                    "divisionSequence": 0,
+                    "raceName": "THE RACING AGAIN 12TH JANUARY HANDICAP HURDLE RACE (CLASS 5)",
+                    "horseName": "Magna Moralia (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "15:35:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "18:41:02",
+                    "declaredReason": "Self Cert (Abscess)"
+                },
+                {
+                    "fixtureId": 598,
+                    "fixtureYear": 2023,
+                    "raceId": 1490,
+                    "divisionSequence": 0,
+                    "raceName": "THE JOIN RACING TV NOW NOVICES' LIMITED HANDICAP STEEPLE CHASE (CLASS 3) (GBB RACE)",
+                    "horseName": "Conquredalofeurope (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "13:50:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "08:26:11",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1553,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-01",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Southwell",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-01 14:16:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 8,
+            "fixtureName": null,
+            "fixtureType": "FLAT",
+            "meetingId": 11509,
+            "racingTrackType": "AWT",
+            "racePlanningCode": "NORMAL",
+            "courseId": 47,
+            "ticketsLink": "http://www.southwell-racecourse.co.uk/whats-on/fixtures/?a=whats-on",
+            "majorEvent": null,
+            "going": "Standard Track will be worked to 3 inches with cultivator to allow for any compaction due to rain. Gallop master finish",
+            "weather": "17mm in the last week including 7mm overnight. Remaining mainly dry and overcast with some sunny spells. Brisk SW wind. Temp approx 9C",
+            "other": "Galloping available up to 2hr 30mins before racing on the Tapeta track. Contact David Attwood on 07860 274289 dattwood@southwell-racecourse.co.uk or Simon Davis 07787 521619 sdavis@southwell-racecourse.co.uk to book. £20 per gallop and £20 per stable if required. Passports required to be shown.",
+            "stalls": "",
+            "rail": "5f - Centre Remainder - Inner",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Nathan Green"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Claudia Marelli"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Jo Hardy",
+                        "Karen West",
+                        "Shaun Mitchell"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "David Hicks"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Ali Galliers-Pratt"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Russell Garritty",
+                        "Ryan Colley"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Greg Pearson",
+                        "Louise Moore",
+                        "Simon Connaway"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Peter Crafts"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Nigel Haizelden"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 1553,
+                    "fixtureYear": 2023,
+                    "raceId": 11251,
+                    "divisionSequence": 0,
+                    "raceName": "THE HUGE DAILY BOOSTS ONLY AT BETUK HANDICAP STAKES (CLASS 2)",
+                    "horseName": "Mondammej",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "16:56:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "09:15:51",
+                    "declaredReason": "Self Cert (Off Colour)"
+                },
+                {
+                    "fixtureId": 1553,
+                    "fixtureYear": 2023,
+                    "raceId": 18406,
+                    "divisionSequence": 0,
+                    "raceName": "THE SPREADEX SPORTS BEST PREMIER LEAGUE ODDS CLASSIFIED STAKES (CLASS 6) (DIV I)",
+                    "horseName": "Brave Display (IRE)",
+                    "fixtureDate": "2023-01-01",
+                    "raceTime": "14:51:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "09:06:56",
+                    "declaredReason": "Vets Cert (Knocked Joint)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 11673,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-02",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Lingfield Park",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-02 12:23:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "FLAT",
+            "meetingId": 22391,
+            "racingTrackType": "AWT",
+            "racePlanningCode": "NORMAL",
+            "courseId": 30,
+            "ticketsLink": "http://www.lingfieldpark.co.uk/racing/fixtures/",
+            "majorEvent": null,
+            "going": "Standard",
+            "weather": "Sunny spells today, max of 8C.",
+            "other": "",
+            "stalls": "5f & 1m - Outside Remainder - Inside",
+            "rail": "",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Josie Brown"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Graham Ford"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Carol Broodbank",
+                        "Darren Stone",
+                        "Kelly McSorley"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Emily Jones"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Gwen Thomas"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Joseph Kieran O'Shea",
+                        "Wayne Hutchinson"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Fergus Sweeney",
+                        "Steve Drowne"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Richard Fuller"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Lucinda Tyler"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 11673,
+                    "fixtureYear": 2023,
+                    "raceId": 55116,
+                    "divisionSequence": 0,
+                    "raceName": "THE TALKSPORT DOWNLOAD THE APP HANDICAP STAKES (CLASS 6)",
+                    "horseName": "Goose Rock (IRE)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "15:23:00",
+                    "declaredDate": "2023-01-02",
+                    "declaredTime": "08:37:11",
+                    "declaredReason": "Vets Cert (Girth Gall)"
+                },
+                {
+                    "fixtureId": 11673,
+                    "fixtureYear": 2023,
+                    "raceId": 55117,
+                    "divisionSequence": 0,
+                    "raceName": "THE IT'S TIME TO TURN TO TALKSPORT HANDICAP STAKES (CLASS 6)",
+                    "horseName": "Gilded Moon",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "14:23:00",
+                    "declaredDate": "2023-01-02",
+                    "declaredTime": "08:02:44",
+                    "declaredReason": "Vets Cert (Pulled Shoe Off)"
+                },
+                {
+                    "fixtureId": 11673,
+                    "fixtureYear": 2023,
+                    "raceId": 55121,
+                    "divisionSequence": 0,
+                    "raceName": "THE BETUK'S ACCA CLUB #5 FREE BET HANDICAP STAKES (CLASS 6)",
+                    "horseName": "Level Up (IRE)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "13:53:00",
+                    "declaredDate": "2023-01-02",
+                    "declaredTime": "06:43:18",
+                    "declaredReason": "Self Cert (Not Sound)"
+                },
+                {
+                    "fixtureId": 11673,
+                    "fixtureYear": 2023,
+                    "raceId": 55121,
+                    "divisionSequence": 0,
+                    "raceName": "THE BETUK'S ACCA CLUB #5 FREE BET HANDICAP STAKES (CLASS 6)",
+                    "horseName": "Hey Ho Let's Go",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "13:53:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "11:37:57",
+                    "declaredReason": "Self Cert (Cast in Box)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1327,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-02",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Plumpton",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-02 12:30:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": "Sussex National",
+            "fixtureType": "JUMP",
+            "meetingId": 989,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 40,
+            "ticketsLink": "https://tickets.plumptonracecourse.co.uk/shop/cart.pl",
+            "majorEvent": 0,
+            "going": "Chase Soft (GoingStick:5.6 on 02-01-2023 at 08:45)",
+            "weather": "3mm of rain in the last 24hrs, 77mm of rain recorded since Tuesday. Chance of some light rain this morning, this will clear by 8.30am to leave a dry day with sunny spells, max temp 9C.",
+            "other": "",
+            "stalls": "",
+            "rail": "Split bends in operation for this meeting. Top bend- Chase: 4yds from innermost line. Hurdle:10yds from innermost line. Bottom bend- Chase: On innermost line. Hurdle: 12yds from innermost line. All chase rail on the straights are back on the inner lines providing some fresh ground.",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Chris Hill"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Leigh O'Brien"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Nick Holman",
+                        "Peter Double",
+                        "Stuart Shilston"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Jane Green"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Kate Smith"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "James Stenning",
+                        "William Howlett"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Cody Watkins",
+                        "Richard Westropp"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Henry Pelly"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Howard Robinson"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 1327,
+                    "fixtureYear": 2023,
+                    "raceId": 5860,
+                    "divisionSequence": 0,
+                    "raceName": "THE FREE BET NOSE LOSERS AT BETGOODWIN EBF 'NATIONAL HUNT' NOVICES' HURDLE RACE (CLASS 3) (Qualifier) (GBB RACE)",
+                    "horseName": "Park This One (IRE)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "13:30:00",
+                    "declaredDate": "2023-01-02",
+                    "declaredTime": "07:33:56",
+                    "declaredReason": "Self Cert (Not Eaten Up)"
+                },
+                {
+                    "fixtureId": 1327,
+                    "fixtureYear": 2023,
+                    "raceId": 5909,
+                    "divisionSequence": 0,
+                    "raceName": "THE BETGOODWIN SUSSEX NATIONAL HANDICAP STEEPLE CHASE (CLASS 3)",
+                    "horseName": "Favori de Sivola (FR)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "15:00:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "17:59:54",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 1327,
+                    "fixtureYear": 2023,
+                    "raceId": 5855,
+                    "divisionSequence": 0,
+                    "raceName": "THE BET GOODWIN HANDICAP STEEPLE CHASE (CLASS 4)",
+                    "horseName": "Extraordinary Man (FR)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "14:30:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "16:34:31",
+                    "declaredReason": "Going"
+                },
+                {
+                    "fixtureId": 1327,
+                    "fixtureYear": 2023,
+                    "raceId": 5857,
+                    "divisionSequence": 0,
+                    "raceName": "THE DOWNLOAD THE BETGOODWIN APP NOVICES' HURDLE RACE (CLASS 4) (GBB RACE)",
+                    "horseName": "King's Castle (IRE)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "13:00:00",
+                    "declaredDate": "2022-12-31",
+                    "declaredTime": "11:38:11",
+                    "declaredReason": "Self Cert (Bruised Foot)"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 467,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-02",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Ayr",
+            "alertLevel": 5,
+            "region": "Scotland",
+            "tier": "4",
+            "firstRace": "2023-01-02 12:45:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "JUMP",
+            "meetingId": 14069,
+            "racingTrackType": "TURF",
+            "racePlanningCode": "NORMAL",
+            "courseId": 2,
+            "ticketsLink": "http://www.ayr-racecourse.co.uk/the-races/tickets",
+            "majorEvent": null,
+            "going": "Heavy, Soft (in places) PLEASE BE ADVISED FENCE NUMBER 5, FIRST FENCE BACK STRAIGHT WILL BE OMITTED IN ALL CHASES (GoingStick:5.6 on 02-01-2023 at 07:15) Chase 5.6 Hurdle 5.5",
+            "weather": "Sunny. 0mm Last 24hrs Mon: Mostly Dry And Sunny -1 Last Night",
+            "other": "Stable Manager For This Fixture Is Shaun Russell 07759595914",
+            "stalls": "",
+            "rail": "Chase Rail In 5yds Hurdle Rails In 7yds",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "AFTERNOON",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Ben Ford"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Michael Hamilton"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Cyril Johnstone",
+                        "James Bonar",
+                        "Linda Porter",
+                        "Tracey Hamilton"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "William Fraser Perratt"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Lauren Thomson"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Michael Reid",
+                        "Stuart Turner"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Adrian Sharpe",
+                        "Adrian Smith"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "John Wilson"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Arthur Kidd"
+                    ]
+                }
+            ],
+            "nonRunners": [
+                {
+                    "fixtureId": 467,
+                    "fixtureYear": 2023,
+                    "raceId": 842,
+                    "divisionSequence": 0,
+                    "raceName": "THE KARAOKE AT THE GOLF INN PRESTWICK NOVICES' HANDICAP STEEPLE CHASE (CLASS 4) (GBB RACE)",
+                    "horseName": "Champ de Gane (FR)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "14:15:00",
+                    "declaredDate": "2023-01-02",
+                    "declaredTime": "09:06:31",
+                    "declaredReason": "Vets Cert (Swelling)"
+                },
+                {
+                    "fixtureId": 467,
+                    "fixtureYear": 2023,
+                    "raceId": 836,
+                    "divisionSequence": 0,
+                    "raceName": "THE MILLS MILK HANDICAP HURDLE RACE (CLASS 5) (Go North Cab On Target Series Qualifier)",
+                    "horseName": "No Mor Isolation (IRE)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "13:15:00",
+                    "declaredDate": "2023-01-02",
+                    "declaredTime": "08:19:46",
+                    "declaredReason": "Other"
+                },
+                {
+                    "fixtureId": 467,
+                    "fixtureYear": 2023,
+                    "raceId": 839,
+                    "divisionSequence": 0,
+                    "raceName": "THE GOLF INN PRESTWICK HANDICAP HURDLE RACE (CLASS 2) (GBB RACE)",
+                    "horseName": "Vee Dancer (IRE)",
+                    "fixtureDate": "2023-01-02",
+                    "raceTime": "14:45:00",
+                    "declaredDate": "2023-01-01",
+                    "declaredTime": "19:36:15",
+                    "declaredReason": "Going"
+                }
+            ],
+            "resultsAvailable": true
+        },
+        {
+            "fixtureId": 1198,
+            "fixtureYear": 2023,
+            "fixtureDate": "2023-01-02",
+            "BSTime": "06:20:17",
+            "distance": null,
+            "courseName": "Newcastle",
+            "alertLevel": -99,
+            "region": "England",
+            "tier": "-100",
+            "firstRace": "2023-01-02 14:38:00",
+            "racecardAvailable": 1,
+            "entriesAvailable": 1,
+            "transparentAvailable": 0,
+            "blackTypeRaces": 0,
+            "bcsEvent": 0,
+            "numberOfRaces": 7,
+            "fixtureName": null,
+            "fixtureType": "FLAT",
+            "meetingId": 900,
+            "racingTrackType": "AWT",
+            "racePlanningCode": "NORMAL",
+            "courseId": 35,
+            "ticketsLink": "http://www.newcastle-racecourse.co.uk/whats-on/fixtures/?a=whats-on",
+            "majorEvent": null,
+            "going": "Standard to Slow Track could ride slow due to new maintenance method",
+            "weather": "Rain over the weekend. Dry bright and cold today. Highs of 3'C with a 9mph Westerly breeze.",
+            "other": "",
+            "stalls": "Straight races: Centre 1m2f and 1m4f: Outside 2m: Inside",
+            "rail": "",
+            "abandonedReasonCode": 0,
+            "fixtureSession": "FLOODLIT",
+            "goingUpdatedDate": null,
+            "goingUpdatedTime": null,
+            "officials": [
+                {
+                    "category": "Assistant Steward",
+                    "officials": [
+                        "Daniel Andrews"
+                    ]
+                },
+                {
+                    "category": "Clerk of Scales",
+                    "officials": [
+                        "Claudia Marelli"
+                    ]
+                },
+                {
+                    "category": "Equine Welfare Integrity Officer",
+                    "officials": [
+                        "Alec Dent",
+                        "David Cook",
+                        "Rachel Kirtley"
+                    ]
+                },
+                {
+                    "category": "Judge",
+                    "officials": [
+                        "Di Clark"
+                    ]
+                },
+                {
+                    "category": "Raceday Assistant",
+                    "officials": [
+                        "Philippa Hardy"
+                    ]
+                },
+                {
+                    "category": "Starter",
+                    "officials": [
+                        "Jason Callaghan",
+                        "Ryan Colley"
+                    ]
+                },
+                {
+                    "category": "Steward",
+                    "officials": [
+                        "Alan Dempsey",
+                        "Robert McCarthy"
+                    ]
+                },
+                {
+                    "category": "Stewards’ Panel Chair",
+                    "officials": [
+                        "Colin Vickers"
+                    ]
+                },
+                {
+                    "category": "Veterinary Officer",
+                    "officials": [
+                        "Tim Davies"
+                    ]
+                }
+            ],
+            "nonRunners": [],
+            "resultsAvailable": true
+        }
+    ]
+}

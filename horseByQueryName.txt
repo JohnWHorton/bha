@@ -1,0 +1,40 @@
+https://www.britishhorseracing.com/feeds/v3/racehorses?page=1&per_page=20&q=Nae&rated=true
+
+a query q=
+
+{
+"total": 2,
+"per_page": 20,
+"current_page": 1,
+"last_page": 1,
+"from": 1,
+"to": 2,
+"data": [
+{
+"id": 2760613,
+"name": "Naeva (FR)",
+"dateOfBirth": "2019-04-23",
+"moniker": "4YO BAY FILLY",
+"trainerName": "Alexandra Dunn",
+"ownerName": null,
+"flatRating": null,
+"awtRating": null,
+"chaseRating": null,
+"hurdleRating": 110,
+"nameWithNoCountry": "Naeva"
+},
+{
+"id": 2686873,
+"name": "Nathanael Greene (GB)",
+"dateOfBirth": "2019-04-21",
+"moniker": "3YO BAY GELDING",
+"trainerName": "William Haggas",
+"ownerName": null,
+"flatRating": 90,
+"awtRating": null,
+"chaseRating": null,
+"hurdleRating": null,
+"nameWithNoCountry": "Nathanael Greene"
+}
+]
+}

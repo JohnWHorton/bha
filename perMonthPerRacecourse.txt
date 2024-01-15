@@ -1,0 +1,62 @@
+https://www.britishhorseracing.com/feeds/v3/fixtures?courseId=10&courseName=Cheltenham&fields=courseId,courseName,fixtureDate,fixtureType,fixtureSession,abandonedReasonCode,highlightTitle&month=1&order=desc&page=1&per_page=10&resultsAvailable=true&year=2023
+
+results
+
+{
+"total": 2,
+"per_page": 10,
+"current_page": 1,
+"last_page": 1,
+"from": 1,
+"to": 2,
+"data": [
+{
+"fixtureId": 630,
+"fixtureYear": 2023,
+"fixtureDate": "2023-01-28",
+"BSTime": "07:47:46",
+"distance": null,
+"courseName": "Cheltenham",
+"alertLevel": -99,
+"region": "England",
+"tier": "-100",
+"firstRace": "2023-01-28 11:40:00",
+"racecardAvailable": 1,
+"entriesAvailable": 1,
+"transparentAvailable": 0,
+"blackTypeRaces": 6,
+"bcsEvent": 0,
+"numberOfRaces": 9,
+"courseId": 10,
+"fixtureType": "JUMP",
+"fixtureSession": "AFTERNOON",
+"abandonedReasonCode": 0,
+"fixtureName": null,
+"resultsAvailable": true
+},
+{
+"fixtureId": 629,
+"fixtureYear": 2023,
+"fixtureDate": "2023-01-01",
+"BSTime": "07:47:46",
+"distance": null,
+"courseName": "Cheltenham",
+"alertLevel": -99,
+"region": "England",
+"tier": "-100",
+"firstRace": "2023-01-01 12:10:00",
+"racecardAvailable": 1,
+"entriesAvailable": 1,
+"transparentAvailable": 0,
+"blackTypeRaces": 4,
+"bcsEvent": 0,
+"numberOfRaces": 7,
+"courseId": 10,
+"fixtureType": "JUMP",
+"fixtureSession": "AFTERNOON",
+"abandonedReasonCode": 0,
+"fixtureName": null,
+"resultsAvailable": true
+}
+]
+}

@@ -1,0 +1,32 @@
+SELECT * FROM results WHERE yearOfRace = "2018" and raceId = 666;
+
+select raceId, yearOfRace from results as t
+where horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 48473)
+group by raceId, yearOfRace
+having count(*) > 1;
+
+
+select a.* from results as a,
+(select raceId, yearOfRace from results as t
+where horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 48473)
+group by raceId, yearOfRace
+having count(*) > 1) as tmp
+where a.raceId = tmp.raceId and a.yearOfRace = tmp.yearOfRace
+and horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 48473)
+order by a.yearOfRace, a.raceId
+
+
+
+
+
+
+
+SELECT * FROM results WHERE yearOfRace = "2018" and raceId = 666;
+
+SELECT * FROM results WHERE yearOfRace = "2018" and 
+raceId in(SELECT `raceId` FROM results as b WHERE b.yearOfRace = "2018" 
+and b.horseId in (SELECT b.horseId FROM results as b WHERE b.yearOfRace = "2018" and b.raceId = 666)
+and raceId <> 666)
+and horseId in (SELECT c.horseId FROM results as c WHERE c.yearOfRace = "2018" and c.raceId = 666)
+group by `raceId`
+having count(*) > 1;
