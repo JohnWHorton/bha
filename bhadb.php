@@ -25,60 +25,15 @@ $fixturedate = isset($request->fixturedate) ? $request->fixturedate : "";
 $fixturetime = isset($request->fixturetime) ? $request->fixturetime : "";
 // testing stand alone
 // $operation = "getResults";
-// $email = "john.horton86@gmail.com";
-// $pswd = "999";
-// $roundnumber = 1;
-//
+
 
 $resparr = array();
 
-if ($operation == "addUser") {
+if ($operation == "upComing") {
   $resparr = addUser($conn, $email, $pswd);
 }
-if ($operation == "loginUser") {
-  $resparr = loginUser($conn, $email, $pswd);
-}
-if ($operation == "resetPassword") {
-  $resparr = resetPassword($conn, $email, $pswd);
-}
-if ($operation == "getPredictions") {
-  $resparr = getPredictions($conn, $email, $roundnumber);
-}
-if ($operation == "getResults") {
-  $resparr = getresults($conn, $email, $roundnumber);
-}
-if ($operation == "makeprediction") {
-  $resparr = makeprediction($conn, $email, $roundnumber, $predictthisjson, $amount);
-}
-if ($operation == "deposit") {
-  $resparr = deposit($conn, $email, $amount);
-}
-if ($operation == "withdrawalrequest") {
-  $resparr = withdrawalrequest($conn, $email, $amount);
-}
-if ($operation == "withdrawalscompleted") {
-  $resparr = withdrawalscompleted($conn, $email, $amount);
-}
-if ($operation == "winnings") {
-  $resparr = winnings($conn, $email, $amount);
-}
-if ($operation == "rounds") {
-  $resparr = rounds($conn);
-}
-if ($operation == "games") {
-  $resparr = games($conn, $roundnumber);
-}
-if ($operation == "transactionhistory") {
-  $resparr = transactionhistory($conn, $email);
-}
-// var_dump($resparr);
-if ($operation == "loginUser" || $operation == "makeprediction" || $operation == "deposit" || $operation == "withdrawalrequest" || $operation == "withdrawalscompleted" || $operation == "winnings") {
-  $r = array();
-  $r = transhistory($conn, $email);
-  $resparr["trans-history"] = $r;
-}
-echo json_encode($resparr);
-function rounds($conn)
+
+function upComing($conn)
 {
   $resparr = array();
   $sql = "SELECT * FROM rounds";
