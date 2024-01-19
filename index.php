@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -16,7 +15,26 @@
 </head>
 
 <body>
-    <div>HELLO WORLD</div>
+    <div id="content" class="allcontent"></div>
+    <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; background-color: transparent;">
+
+        <div class="container">
+
+            <table class="table table-striped transtable">
+                <thead class="sticky-top">
+                    <tr style="background-color: black !important;">
+                        <th>Course</th>
+                        <th>Date</th>
+                        <th>Race</th>
+                        <th>Time</th>
+                        <th><span class="close" aria-hidden="true" onclick="hideAllBoxes();">&times;</span></th>
+                    </tr>
+                </thead>
+                <tbody id="comingbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
     <script type="text/javascript" src="./js/smtp.js"></script>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/popper.min.js"></script>

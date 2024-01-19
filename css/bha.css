@@ -1,8 +1,78 @@
 body {
   width: 100%;
+  /*	background: transparent;*/
+  background-color: rgba(0, 0, 0, 0.9);
   height: 100%;
+  width: 100%;
   font-family: "open-sans-light", sans-serif;
   font-size: 14px;
   font-weight: normal;
-  color: rgb(0, 0, 0);
+  color: rgb(250, 248, 248);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #fcfdfd !important;
+  background-image: url("../images/horse-race.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  overscroll-behavior-y: contain;
+  margin-top: 100px;
+  /* opacity: 0.1; */
+}
+a {
+  color: #fdfdfd;
+  text-decoration: none;
+  background-color: transparent;
+}
+.table td,
+.table thead {
+  vertical-align: middle;
+  /* border-bottom: 1px solid #ddd; */
+  color: #f6f8f9 !important;
+  text-align: left !important;
+}
+
+.table {
+  background-color: #000;
+  font-family: "open-sans-light", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(250, 248, 248);
+}
+.transtable {
+  background-color: #000;
+  font-family: "open-sans-light", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(250, 248, 248);
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+}
+.transtable > tbody > tr > td,
+.transtable > tbody > tr > th,
+.transtable > tfoot > tr > td,
+.transtable > tfoot > tr > th,
+.transtable > thead > tr > td,
+.transtable > thead > tr > th {
+  border: none;
+}
+.transtable > thead > tr > td,
+.transtable > thead > tr {
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+}
+.transtablehead {
+  background-color: #000;
+}
+.historycontainer {
+    /* display: flex; */
+    max-height: 500px;
+    background-color: black !important;
+    color: black;
+    margin-top: 50px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 0%!important;
 }
