@@ -33,8 +33,7 @@ function doUpcoming()
 	$entries = array();
 	$currentDate = date('Ymd');
 	$fromdate =	$currentDate - 1;
-	$todate =
-	$currentDate + 2;
+	$todate = $currentDate + 2;
 	//get fixtures
 	$response = shell_exec('curl --location "https://api09.horseracing.software/bha/v1/fixtures?fields=abandonedReasonCode,courseId,courseName,fixtureYear,fixtureId,fixtureDate,distance,firstRace,firstRaceTime,fixtureName,fixtureSession,fixtureType,highlightTitle,majorEvent,meetingId,resultsAvailable,bcsEvent&fromdate='. $fromdate.'&page=1&per_page=150&todate='. $todate.'"');
 

@@ -79,3 +79,9 @@ a {
 .maxwidth {
   max-width: 600px!important;
 }
+#spinner {
+left: 50%;
+position: absolute;
+text-align: center;
+top: 50%;
+}

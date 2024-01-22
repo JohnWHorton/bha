@@ -15,7 +15,11 @@
 </head>
 
 <body>
-    <div id="content" class="allcontent"></div>
+    <div id="content" class="allcontent">
+        <div id="spinner" class="spinner-border text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
     <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
         <div class="container">
