@@ -10,7 +10,6 @@ $(document).ready(function () {
 });
 
 function getUpcoming() {
-  rounds = [];
   var parms = { operation: "upcoming" };
 
   $.ajax({
@@ -72,9 +71,9 @@ function getUpcoming() {
       for (let i = 0; i < tabledata.length; i++) {
         racestable += `<tr>`;
         racestable += `<td>${tabledata[i].courseName}</td>`;
-        racestable += `<td>${tabledata[i].raceName}</td>`;
+        racestable += `<td class="maxwidth">${tabledata[i].raceName}</td>`;
         racestable += `<td>${tabledata[i].raceDate}</td>`;
-        racestable += `<td>$ ${tabledata[i].raceTime}</td>`;
+        racestable += `<td>${tabledata[i].raceTime}</td>`;
         racestable += `</tr>`;
         // console.log(racestable);
       }

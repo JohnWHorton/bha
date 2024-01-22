@@ -65,7 +65,7 @@ a {
 .transtablehead {
   background-color: #000;
 }
-.historycontainer {
+.comingcontainer {
     /* display: flex; */
     max-height: 500px;
     background-color: black !important;
@@ -75,4 +75,7 @@ a {
     overflow-x: hidden;
     overflow-y: auto;
     padding-top: 0%!important;
+}
+.maxwidth {
+  max-width: 600px!important;
 }

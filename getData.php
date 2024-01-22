@@ -1,43 +1,24 @@
 <?php
 
-$operation = isset($_GET["operation"]) ? $_GET["operation"] : null;
-$year = isset($_GET["year"]) ? $_GET["year"] : null;
-$courseId =  isset($_GET["courseId"]) ? $_GET["courseId"] : null;
-$fixtureId =  isset($_GET["fixtureId"]) ? $_GET["fixtureId"] : null;
-$raceId =  isset($_GET["raceId"]) ? $_GET["raceId"] : null;
-
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST, DELETE, OPTIONS");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-
-/* if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {   
-	header("HTTP/1.1 204 No Content");		
-	return 0;    
-}  */
-
 header("HTTP/1.1 200 OK");
 
-//$response = shell_exec('curl --location //"https://www.britishhorseracing.com/feeds/v3/fixtures?fields=courseId,courseName,fixtureDate,fixtureType,fixtureSession,abandonedReasonCode,highli//ghtTitle&month=1&order=desc&page=1&per_page=1000&resultsAvailable=true&year=2023"');
+$postdata = file_get_contents("php://input");
+$request = json_decode($postdata);
+$operation = isset($_GET["operation"]) ? $_GET["operation"] : "upcoming";
+$year = isset($_GET["year"]) ? $_GET["year"] : null;
+$courseId =  isset($_GET["courseId"]) ? $_GET["courseId"] : null;
+$fixtureId =  isset($_GET["fixtureId"]) ? $_GET["fixtureId"] : null;
+$raceId =  isset($_GET["raceId"]) ? $_GET["raceId"] : null;
 
 $data = new stdClass();
-$operation = "upcoming";
+// $operation = "upcoming";
 $respArray = array();
-
-// if ($operation == "racecourses") {
-// 	$response = shell_exec('curl --location "https://www.britishhorseracing.com/feeds/v1/racecourses"');
-// 	$resp = json_decode($response, true);
-// 	$data = $resp["data"];
-// }
-// if ($operation == "fixtures") {
-// 	//	$response = shell_exec('curl --location //"https://www.britishhorseracing.com/feeds/v3/fixtures?fields=courseId%2CcourseName%2CfixtureDate%2CfixtureType%2CfixtureSession%2CabandonedReasonC//ode%2ChighlightTitle&month=1&order=desc&page=1&per_page=1000&resultsAvailable=true&year='.$year.'"');
-
-
-// 	$response = shell_exec('curl --location "https://www.britishhorseracing.com/feeds/v3/fixtures?year=' . $year . '"');
-// 	$resp = json_decode($response, true);
-// 	$data = $resp["data"];
-// }
+array_push($respArray, $operation);
 
 if ($operation == "upcoming") {
 	$data = doUpcoming();
@@ -50,10 +31,12 @@ function doUpcoming()
 	$fixtures = array();
 	$races = array();
 	$entries = array();
-	$fromdate = "20240116";
-	$todate = "20240118";
+	$currentDate = date('Ymd');
+	$fromdate =	$currentDate - 1;
+	$todate =
+	$currentDate + 2;
 	//get fixtures
-	$response = shell_exec('curl --location "https://api09.horseracing.software/bha/v1/fixtures?fields=abandonedReasonCode,courseId,courseName,fixtureYear,fixtureId,fixtureDate,distance,firstRace,firstRaceTime,fixtureName,fixtureSession,fixtureType,highlightTitle,majorEvent,meetingId,resultsAvailable,bcsEvent&fromdate=20240117&page=1&per_page=15&todate=20240217"');
+	$response = shell_exec('curl --location "https://api09.horseracing.software/bha/v1/fixtures?fields=abandonedReasonCode,courseId,courseName,fixtureYear,fixtureId,fixtureDate,distance,firstRace,firstRaceTime,fixtureName,fixtureSession,fixtureType,highlightTitle,majorEvent,meetingId,resultsAvailable,bcsEvent&fromdate='. $fromdate.'&page=1&per_page=150&todate='. $todate.'"');
 
 	$tmp = array();
 	$resp = json_decode($response, true);

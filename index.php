@@ -16,7 +16,7 @@
 
 <body>
     <div id="content" class="allcontent"></div>
-    <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; background-color: transparent;">
+    <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
         <div class="container">
 
@@ -24,8 +24,8 @@
                 <thead class="sticky-top">
                     <tr style="background-color: black !important;">
                         <th>Course</th>
+                        <th class="maxwidth">Race</th>
                         <th>Date</th>
-                        <th>Race</th>
                         <th>Time</th>
                         <th><span class="close" aria-hidden="true" onclick="hideAllBoxes();">&times;</span></th>
                     </tr>
