@@ -1,26 +1,31 @@
 <?php
 
-$host = 'localhost:82';
-$db   = 'bha';
-$user = 'john';
-$pass = 'john';
-$charset = 'utf8mb4';
-
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_errno) {
-    echo "Failed to connect to MySQL: " . $conn->connect_error;
-    exit();
-} else {
-    echo "db ok ";
-}
-echo "hello";
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST, DELETE, OPTIONS");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 header("HTTP/1.1 200 OK");
+
+$host = 'localhost';
+$db = 'bha';
+$user = 'john';
+$pass = 'john';
+$charset = 'utf8mb4';
+
+// $host = '13.49.223.11';
+// $db = 'afl';
+// $user = 'aflpools';
+// $pass = 'V4513john';
+// $charset = 'utf8mb4';
+
+$conn = new mysqli($host, $user, $pass, $db);
+
+// Check connection
+if ($conn->connect_errno) {
+    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    exit();
+}
 
 
 $data = new stdClass();
@@ -38,9 +43,12 @@ function doUpcoming($conn)
     $fixtures = array();
     $races = array();
     $entries = array();
+    $horses = "";
+    $results = array();
     $currentDate = date('Ymd');
-    $fromdate =    $currentDate - 1;
+    $fromdate = $currentDate - 1;
     $todate = $currentDate + 2;
+    echo $fromdate . " - " . $todate;
     //get fixtures
     $response = shell_exec('curl --location "https://api09.horseracing.software/bha/v1/fixtures?fields=abandonedReasonCode,courseId,courseName,fixtureYear,fixtureId,fixtureDate,distance,firstRace,firstRaceTime,fixtureName,fixtureSession,fixtureType,highlightTitle,majorEvent,meetingId,resultsAvailable,bcsEvent&fromdate=' . $fromdate . '&page=1&per_page=150&todate=' . $todate . '"');
 
@@ -90,28 +98,39 @@ function doUpcoming($conn)
                 array_push($entries, $resp["data"]);
             }
             $upcoming->entries = $entries;
-            
-            for($i=0; $i<count($entries); $i++) {
-                for ($j = 0; $j < count($entries[$i]); $j++) {
-                    $raceId = $entries[$i][$j]["raceId"];
-                    $yearOfRace = $entries[$i][$j]["yearOfRace"];
-                    $animalId = $entries[$i][$j]["animalId"];
-                    $racehorseName = $entries[$i][$j]["racehorseName"];
-
-                    $sql = 'INSERT INTO entries (raceId, yearOfRace, animalId, racehorseName) 
-                    VALUES (' . $raceId . ',' . $yearOfRace . ',' . $animalId . ',"' . $racehorseName . '")';
-                    echo $sql;
-                    // if ($conn->query($sql) === true) {
-                    //     array_push($resparr, 'success', "added");
-                    // } else {
-                    //     array_push($resparr, 'error', $sql);
-                    // }
-                }
-            }            
         }
     }
+    // previous results for all runnersget 
+    
+    for ($i = 0; $i < count($entries); $i++) {
+        for ($j = 0; $j < count($entries[$i]); $j++) {
+            if ($i == 0 && $j==0) {
+                $horses = $horses . $entries[$i][$j]["animalId"];
+            } else {
+                $horses = $horses . "," . $entries[$i][$j]["animalId"];
+            }
+            
+            // $raceId = $entries[$i][$j]["raceId"];
+            // $yearOfRace = $entries[$i][$j]["yearOfRace"];
+            // $animalId = $entries[$i][$j]["animalId"];
+            // $racehorseName = $entries[$i][$j]["racehorseName"];
+        }
+    }
+    $sql = "SELECT * FROM results WHERE horseId in (" . $horses . ")";
+echo $sql;
+    $result = $conn->query($sql);
 
-$file = fopen(__DIR__ . '/upcoming.json', 'w');
-fwrite($file, json_encode($upcoming));
-fclose($file);
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            array_push($results, $row);
+        }
+    } else {
+        array_push($results, [$sql]);
+    }
+    var_dump($results);
+    $upcoming->results = $results;
+
+    $file = fopen(__DIR__ . '/upcoming.json', 'w');
+    fwrite($file, json_encode($upcoming));
+    fclose($file);
 }
