@@ -93,7 +93,68 @@ function doCompare(r) {
     }
   }
   let uniq = [...new Set(runners)];
-  console.log(uniq);
+  // console.log(uniq);
+  console.log("results", results);
+  let prevResults = [];
+  for (let i = 0; i < results.length; i++) {
+    if (uniq.includes(results[i].racehorseName)) {
+      prevResults.push(results[i]);
+    }
+  }
+  // sort array
+  prevResults.sort(function (a, b) {
+    return a.yearOfRace - b.yearOfRace || a.raceId - b.raceId;
+  });
+  console.log("prevResults", prevResults);
+  let matches = [];
+  yor = 0; rid = 0;
+  for (let i = 0; i < prevResults.length; i++) {
+    if (i == 0) {
+      yor = prevResults[i].yearOfRace;
+      rid = prevResults[i].raceId;
+    } else {
+      if (prevResults[i].yearOfRace == yor && prevResults[i].raceId == rid) {
+        matches.push(prevResults[i - 1]);
+        matches.push(prevResults[i]);
+      }
+      yor = prevResults[i].yearOfRace;
+      rid = prevResults[i].raceId;
+    }
+  }
+  console.log("races", races);
+  uniq = [...new Set(matches)];
+  console.log("Uniq matches", uniq);
+  // for (let j = 0; j < races.length; j++) {
+  //   for (let jj = 0; jj < races[j].length; jj++) {
+  //     if (races[j][jj].raceId == r) {
+  //       console.log(races[j][jj].raceDate, races[j][jj].raceId, races[j][jj].raceName);
+  //       break;
+  //     }
+  //   }
+  // }
+
+  let comparetable = "";
+  for (let i = 0; i < uniq.length; i++) {
+    if (i > 0 && (uniq[i].raceId != uniq[i - 1].raceId || uniq[i].yearOfRace != uniq[i - 1].yearOfRace)) {
+      comparetable += "<tr></tr>";
+    }
+    console.log(uniq[i].racehorseName, uniq[i].raceId, uniq[i].yearOfRace, uniq[i].resultFinishPos, uniq[i].bettingRatio, uniq[i].jockeyName, uniq[i].ageYear, uniq[i].weightValue);   
+
+    comparetable += "<tr>";
+    comparetable += `<td>${uniq[i].racehorseName}</td>`;
+    comparetable += `<td>${uniq[i].ageYear}</td>`;
+    comparetable += `<td>${uniq[i].weightValue}</td>`;
+    comparetable += `<td>${uniq[i].raceId}</td>`;
+    comparetable += `<td>${uniq[i].yearOfRace}</td>`;
+    comparetable += `<td>${uniq[i].resultFinishPos}</td>`;
+    comparetable += `<td>${uniq[i].jockeyName}</td>`;
+    comparetable += `<td>${uniq[i].bettingRatio}</td>`;
+    comparetable += "</tr>";
+  }
+  document.getElementById("comparebody").innerHTML = comparetable;
+
+  $("#comingbox").hide();
+  $("#comparebox").show();
 }
 
 

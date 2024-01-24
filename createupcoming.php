@@ -31,7 +31,7 @@ if ($conn->connect_errno) {
 $data = new stdClass();
 $operation = "upcoming";
 
-echo "upcoming";
+// echo "upcoming";
 if ($operation == "upcoming") {
     $data = doUpcoming($conn);
 }
@@ -95,21 +95,31 @@ function doUpcoming($conn)
                 $response = shell_exec('curl --location "https://www.britishhorseracing.com/feeds/v3/races/' . $fixyear . '/' . $raceId . '/0/entries"');
                 $resp = json_decode($response, true);
                 // echo $resp."\n";
-                array_push($entries, $resp["data"]);
+                if ($resp["data"] != []) {
+                    array_push($entries, $resp["data"]);
+                } else {
+                    $response = shell_exec('curl --location "https://www.britishhorseracing.com/feeds/v3/races/' . $fixyear . '/' . $raceId . '/0/trans"');
+                    $resp = json_decode($response, true);
+                    if ($resp["data"] != []) {
+                        array_push($entries, $resp["data"]);
+                    }
+                }
             }
             $upcoming->entries = $entries;
         }
     }
-    // previous results for all runnersget 
-    
+    // previous results for all runners
+
     for ($i = 0; $i < count($entries); $i++) {
         for ($j = 0; $j < count($entries[$i]); $j++) {
-            if ($i == 0 && $j==0) {
-                $horses = $horses . $entries[$i][$j]["animalId"];
-            } else {
-                $horses = $horses . "," . $entries[$i][$j]["animalId"];
+            if ($entries[$i][$j]["animalId"] && $entries[$i][$j]["animalId"] > 0) {
+                if ($i == 0 && $j == 0) {
+                    $horses = $horses . $entries[$i][$j]["animalId"];
+                } else {
+                    $horses = $horses . "," . $entries[$i][$j]["animalId"];
+                }
             }
-            
+
             // $raceId = $entries[$i][$j]["raceId"];
             // $yearOfRace = $entries[$i][$j]["yearOfRace"];
             // $animalId = $entries[$i][$j]["animalId"];
@@ -117,7 +127,7 @@ function doUpcoming($conn)
         }
     }
     $sql = "SELECT * FROM results WHERE horseId in (" . $horses . ")";
-echo $sql;
+    // echo $sql;
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -127,7 +137,7 @@ echo $sql;
     } else {
         array_push($results, [$sql]);
     }
-    var_dump($results);
+    // var_dump($results);
     $upcoming->results = $results;
 
     $file = fopen(__DIR__ . '/upcoming.json', 'w');

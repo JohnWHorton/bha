@@ -8,11 +8,11 @@ having count(*) > 1;
 
 select a.* from results as a,
 (select raceId, yearOfRace from results as t
-where horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 48473)
+where horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 59075)
 group by raceId, yearOfRace
 having count(*) > 1) as tmp
 where a.raceId = tmp.raceId and a.yearOfRace = tmp.yearOfRace
-and horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 48473)
+and horseId in(SELECT horseId FROM results WHERE yearOfRace = "2024" and raceId = 59075)
 order by a.yearOfRace, a.raceId
 
 

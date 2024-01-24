@@ -39,6 +39,30 @@
             </table>
         </div>
     </div>
+    <div id="comparebox" class="container comparecontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
+
+        <div class="container">
+
+            <table class="table table-striped transtable">
+                <thead class="sticky-top">
+                    <tr style="background-color: black !important;">
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>weight</th>
+                        <th>Race Id</th>
+                        <th>Year</th>
+                        <th>Finnish</th>
+                        <th>Jockey</th>
+                        <th>Betting</th>
+                        <th><span class="close" aria-hidden="true" onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
+                    </tr>
+                </thead>
+                <tbody id="comparebody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
     <script type="text/javascript" src="./js/smtp.js"></script>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/popper.min.js"></script>
