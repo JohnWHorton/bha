@@ -91,7 +91,14 @@ a {
     overflow-y: auto;
     padding-top: 0%!important;
 }
-
+.nextCompare {
+  border-top: 2px solid rgb(252, 122, 122);
+}
+#headtext {
+  color: #ffffff!important;
+  margin-top: 1rem!important;
+  text-align: center!important;
+}
 #spinner {
 left: 50%;
 position: absolute;

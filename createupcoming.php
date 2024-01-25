@@ -126,7 +126,8 @@ function doUpcoming($conn)
             // $racehorseName = $entries[$i][$j]["racehorseName"];
         }
     }
-    $sql = "SELECT * FROM results WHERE horseId in (" . $horses . ")";
+    $sql = "SELECT re.*, ra.raceName FROM results as re, races as ra 
+WHERE horseId in (" . $horses . ") AND re.raceId = ra.raceId AND re.yearOfRace = SUBSTRING(ra.raceDate,1,4)";
     // echo $sql;
     $result = $conn->query($sql);
 
