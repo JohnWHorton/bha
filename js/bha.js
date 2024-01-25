@@ -70,7 +70,7 @@ function showComing() {
       }
       racestable += `<td>${tabledata[i].raceTime}</td>`;
       racestable += `<td class="maxwidth">
-      <span class="compare" onclick="doCompare(${tabledata[i].raceId})">${tabledata[i].raceName}</span>
+      <a href="#" class="compare" onclick="doCompare(${tabledata[i].raceId})">${tabledata[i].raceName}</a>
       </td>`;
       racestable += `</tr>`;
       // console.log(racestable);
@@ -127,26 +127,30 @@ function doCompare(r) {
 
   let comparetable = "";
   let raceName = "";
-  for (let i = 0; i < uniq.length; i++) {
-    if (i > 0 && (uniq[i].raceId != uniq[i - 1].raceId || uniq[i].yearOfRace != uniq[i - 1].yearOfRace)) {
-      comparetable += `<tr class="nextCompare"></tr>`;
+  if (uniq.length == 0) {
+    comparetable += `<tr><td id="nonefound" colspan="7">No previou encounters found.</td></tr>`;
+  } else {
+    for (let i = 0; i < uniq.length; i++) {
+      if (i > 0 && (uniq[i].raceId != uniq[i - 1].raceId || uniq[i].yearOfRace != uniq[i - 1].yearOfRace)) {
+        comparetable += `<tr class="nextCompare"></tr>`;
+      }
+      if (uniq[i].raceName != raceName) {
+        comparetable += `<tr><td colspan="7">${uniq[i].raceName} - ${uniq[i].yearOfRace}</td></tr>`;
+        raceName = uniq[i].raceName;
+      }
+      // console.log(uniq[i].racehorseName, uniq[i].raceId, uniq[i].yearOfRace, uniq[i].resultFinishPos, uniq[i].bettingRatio, uniq[i].jockeyName, uniq[i].ageYear, uniq[i].weightValue, uniq[i].raceName);
+
+      comparetable += `<tr>`;
+      comparetable += `<td>${uniq[i].racehorseName}</td>`;
+      comparetable += `<td>${uniq[i].ageYear}</td>`;
+      comparetable += `<td>${uniq[i].weightValue}</td>`;
+      // comparetable += `<td>${uniq[i].raceId}</td>`;
+      comparetable += `<td>${uniq[i].yearOfRace}</td>`;
+      comparetable += `<td>${uniq[i].resultFinishPos}</td>`;
+      comparetable += `<td>${uniq[i].jockeyName}</td>`;
+      comparetable += `<td>${uniq[i].bettingRatio}</td>`;
+      comparetable += `</tr>`;
     }
-    if (uniq[i].raceName != raceName) {
-      comparetable += `<tr><td colspan="7">${uniq[i].raceName} - ${uniq[i].yearOfRace}</td></tr>`;
-      raceName = uniq[i].raceName;
-    }
-    console.log(uniq[i].racehorseName, uniq[i].raceId, uniq[i].yearOfRace, uniq[i].resultFinishPos, uniq[i].bettingRatio, uniq[i].jockeyName, uniq[i].ageYear, uniq[i].weightValue, uniq[i].raceName);   
-    // let race = getRace(uniq[i].raceId, uniq[i].yearOfRace.toString());
-    comparetable += `<tr>`;
-    comparetable += `<td>${uniq[i].racehorseName}</td>`;
-    comparetable += `<td>${uniq[i].ageYear}</td>`;
-    comparetable += `<td>${uniq[i].weightValue}</td>`;
-    // comparetable += `<td>${uniq[i].raceId}</td>`;
-    comparetable += `<td>${uniq[i].yearOfRace}</td>`;
-    comparetable += `<td>${uniq[i].resultFinishPos}</td>`;
-    comparetable += `<td>${uniq[i].jockeyName}</td>`;
-    comparetable += `<td>${uniq[i].bettingRatio}</td>`;
-    comparetable += `</tr>`;
   }
   document.getElementById("comparebody").innerHTML = comparetable;
 

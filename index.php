@@ -23,7 +23,7 @@
     <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
         <div class="container">
-<p>Click on any Race to view previous head to head results of runners in this race</p>
+            <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
             <table class="table table-striped transtable">
                 <thead class="sticky-top">
                     <tr style="background-color: black !important;">
@@ -42,7 +42,6 @@
     <div id="comparebox" class="container comparecontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
         <div class="container">
-            <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
             <table class="table table-striped transtable">
                 <thead class="sticky-top">
                     <tr style="background-color: black !important;">
