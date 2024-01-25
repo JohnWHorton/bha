@@ -22,15 +22,15 @@
     </div>
     <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
-        <div class="container">
+        <div class="container" style="overflow-x:auto;">
             <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
             <table class="table table-striped transtable">
                 <thead class="sticky-top">
                     <tr style="background-color: black !important;">
                         <th>Course</th>
-                        <th class="maxwidth">Race</th>
                         <th>Date</th>
                         <th>Time</th>
+                        <th class="maxwidth">Race</th>
                         <th><span class="close" aria-hidden="true" onclick="hideAllBoxes();">&times;</span></th>
                     </tr>
                 </thead>
@@ -41,7 +41,7 @@
     </div>
     <div id="comparebox" class="container comparecontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
-        <div class="container">
+        <div class="container" style="overflow-x:auto;">
             <table class="table table-striped transtable">
                 <thead class="sticky-top">
                     <tr style="background-color: black !important;">

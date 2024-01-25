@@ -76,6 +76,9 @@ a {
     overflow-y: auto;
     padding-top: 0%!important;
 }
+a:hover {
+  color: rgb(118, 118, 116);
+}
 .maxwidth {
   max-width: 600px!important;
 }
