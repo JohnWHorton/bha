@@ -1,0 +1,88 @@
+AFLPools office IP: 83.168.48.52
+
+Gmail
+Username: aflpools@gmail.com
+Password: T!ff4john
+
+AWS
+Username: tiffaman@gmail.com
+Password: T!ff4V4513
+IAM Authentication required through registration and Google Play
+
+AWS Instance: AFL (Windows Server)
+RDP address: herdnerd.ddns.net
+Username: administrator
+Password: 9&OWTj=7W&01e6PrpUCJHOnh8M-jfsf@
+
+AWS Instance: Ubuntu AFL
+ec2-13-49-223-11.eu-north-1.compute.amazonaws.com
+Username: ubuntu
+Password: T!ff4john
+Public IP: 13.49.223.11
+
+AWS Instance: Ubuntu AFL
+Username: root
+Password: T!ff4john
+
+Ubuntu MySQL
+Username: root
+Password: T!ff4V4513
+
+Ubuntu MySQL
+Username: john
+Password: john
+
+Ubuntu MySQL - remote connect account
+Host: 13.49.223.11:3306
+Username: aflpools
+Password: V4513john
+Note: Never use ! in the password of the remote connect account
+
+
+Service: https://app.elasticemail.com/
+Username: aflpools@gmail.com
+Password: T!ff4john
+SMTP RelayDetails
+Username: aflpools@gmail.com
+Password: 75BA4DE7B88FD485660CFA3A022423E20C9E
+smtp.elasticemail.com Port: 2525
+Token Generator
+https://smtpjs.com/
+Security token for gmail.com
+e897669f-4158-4aa8-9ec9-b427bb86a779
+
+Service: Domain afl-pools.com
+URL: https://www.onlydomains.com/account/login
+Username: johnhorton (case sensitive)
+Password: T!ff4john
+
+Service: GitHub
+URL: https://github.com/login
+Username: tiffaman@gmail.com
+Password: T!ff4john
+Repository AFL: https://github.com/ChrisSchaap/afl.git
+
+NoIP
+URL: www.noip.com
+Username: prepitician@gmail.com
+Password: Pr3pnoip
+Dynamic update host: herdnerd.ddns.net
+
+
+Paths
+Path to apache www folder
+ /var/www/afl/		
+
+
+namecheap
+Ashleigh1!
+mysql
+john/h2hracingjohn
+prhwgzau_john
+prhwgzau_bha
+
+cpanel_username : prhwgzau
+cpanel password : tjUYVIRmkkJK
+
+connect to ssh server : ssh -p 21098 prhwgzau@66.29.141.129
+command to run script after you connect to ssh :/usr/local/bin/php /home/prhwgzau/public_html/createupcoming.php
