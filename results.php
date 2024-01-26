@@ -15,7 +15,7 @@ if ($conn->connect_errno) {
     echo "db ok" . "\n";
 }
 
-for ($a = 2019; $a < 2025; $a++) {
+for ($a = 2024; $a < 2025; $a++) {
     $resparr = array();
     $sql = "SELECT raceId, raceDate FROM races WHERE substring(raceDate,1,4) = {$a}";
 
