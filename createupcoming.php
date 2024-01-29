@@ -7,17 +7,12 @@ header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 header("HTTP/1.1 200 OK");
 
+//namecheap server
 $host = 'localhost';
-$db = 'bha';
-$user = 'john';
-$pass = 'john';
+$db = 'prhwgzau_bha';
+$user = 'prhwgzau_john';
+$pass = 'prhwgzau_jon';
 $charset = 'utf8mb4';
-
-// $host = '13.49.223.11';
-// $db = 'afl';
-// $user = 'aflpools';
-// $pass = 'V4513john';
-// $charset = 'utf8mb4';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -27,7 +22,6 @@ if ($conn->connect_errno) {
     exit();
 }
 
-
 $data = new stdClass();
 $operation = "upcoming";
 
@@ -35,8 +29,6 @@ $operation = "upcoming";
 if ($operation == "upcoming") {
     $data = doUpcoming($conn);
 }
-
-
 function doUpcoming($conn)
 {
     $upcoming = new stdClass();
@@ -108,6 +100,21 @@ function doUpcoming($conn)
             $upcoming->entries = $entries;
         }
     }
+
+    try {
+        $jsonUpcoming = json_encode($upcoming);
+        if ($jsonUpcoming === false) {
+            throw new Exception('Error encoding data to JSON.');
+        }
+        $filePath = __DIR__ . '/upcoming.json';
+        $result = file_put_contents($filePath, $jsonUpcoming);
+        if ($result === false) {
+            throw new Exception('Error writing to file.');
+        }
+        echo 'Data written to file successfully.';
+    } catch (Exception $e) {
+        echo 'Caught exception: ' . $e->getMessage() . "\n";
+    }
     // previous results for all runners
 
     for ($i = 0; $i < count($entries); $i++) {
@@ -119,29 +126,41 @@ function doUpcoming($conn)
                     $horses = $horses . "," . $entries[$i][$j]["animalId"];
                 }
             }
-
-            // $raceId = $entries[$i][$j]["raceId"];
-            // $yearOfRace = $entries[$i][$j]["yearOfRace"];
-            // $animalId = $entries[$i][$j]["animalId"];
-            // $racehorseName = $entries[$i][$j]["racehorseName"];
         }
     }
-    $sql = "SELECT re.*, ra.raceName FROM results as re, races as ra 
-WHERE horseId in (" . $horses . ") AND re.raceId = ra.raceId AND re.yearOfRace = SUBSTRING(ra.raceDate,1,4)";
-    // echo $sql;
+    //tmp comment
+    $sql = "SELECT re.*, ra.raceName 
+        FROM results AS re
+        JOIN races AS ra ON re.raceId = ra.raceId
+        WHERE horseId IN ($horses) 
+        AND re.yearOfRace = SUBSTRING(ra.raceDate, 1, 4)";
+
     $result = $conn->query($sql);
+    $rows = [];
 
     if ($result->num_rows > 0) {
+
         while ($row = $result->fetch_assoc()) {
-            array_push($results, $row);
+            $rows[] = $row;
         }
     } else {
-        array_push($results, [$sql]);
+        $rows[] = ['error' => 'No results found for the query: ' . $sql];
     }
-    // var_dump($results);
-    $upcoming->results = $results;
 
-    $file = fopen(__DIR__ . '/upcoming.json', 'w');
-    fwrite($file, json_encode($upcoming));
-    fclose($file);
+    try {
+        $jsonUpcoming = json_encode($rows);
+        // var_dump($jsonUpcoming);
+
+        if ($jsonUpcoming === false) {
+            throw new Exception('Error encoding data to upcomingresults JSON.');
+        }
+        $filePath = __DIR__ . '/upcomingresults.json';
+        $result = file_put_contents($filePath, $jsonUpcoming);
+        if ($result === false) {
+            throw new Exception('Error writing to file.');
+        }
+        echo 'Data written to file successfully.';
+    } catch (Exception $e) {
+        echo 'Caught exception: ' . $e->getMessage() . "\n";
+    }
 }

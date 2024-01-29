@@ -1,5 +1,6 @@
 
 var upcoming = [];
+var upcomingresults = [];
 var fixtures = [];
 var races = [];
 var entries = [];
@@ -13,11 +14,20 @@ $(document).ready(function () {
 function getUpcoming() {
 
   $.getJSON('upcoming.json', function (upcoming) {
-    console.log(upcoming);
+    // console.log(upcoming);
     fixtures = upcoming["fixtures"];
     races = upcoming["races"];
     entries = upcoming["entries"];
-    results = upcoming["results"];
+    // results = upcoming["results"];
+    // createtable();
+    $("#spinner").hide();
+  });
+  $.getJSON('upcomingresults.json', function (upcomingresults) {
+    console.log("upcomingresults", upcomingresults);
+    // fixtures = upcoming["fixtures"];
+    // races = upcoming["races"];
+    // entries = upcoming["entries"];
+    results = upcomingresults;
     createtable();
     $("#spinner").hide();
   });
