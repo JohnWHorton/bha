@@ -38,9 +38,9 @@ function doUpcoming($conn)
     $horses = "";
     $results = array();
     $currentDate = date('Ymd');
-    $fromdate = $currentDate - 1;
-    $todate = $currentDate + 2;
-    echo $fromdate . " - " . $todate;
+    $fromdate = date('Ymd', strtotime(' - 1 day', strtotime($currentDate)));  
+    $todate = date('Ymd', strtotime(' + 2 day', strtotime($currentDate)));
+    echo $fromdate . " - " . $todate ;
     //get fixtures
     $response = shell_exec('curl --location "https://api09.horseracing.software/bha/v1/fixtures?fields=abandonedReasonCode,courseId,courseName,fixtureYear,fixtureId,fixtureDate,distance,firstRace,firstRaceTime,fixtureName,fixtureSession,fixtureType,highlightTitle,majorEvent,meetingId,resultsAvailable,bcsEvent&fromdate=' . $fromdate . '&page=1&per_page=150&todate=' . $todate . '"');
 
@@ -148,12 +148,18 @@ function doUpcoming($conn)
     }
 
     try {
-        $jsonUpcoming = json_encode($rows);
+        // $rows = mb_convert_encoding($rows, 'UTF-8', 'UTF-8');
+        $jsonUpcoming = json_encode($rows, JSON_INVALID_UTF8_IGNORE);
         // var_dump($jsonUpcoming);
-
-        if ($jsonUpcoming === false) {
-            throw new Exception('Error encoding data to upcomingresults JSON.');
-        }
+        if (json_last_error() === JSON_ERROR_NONE) {
+            // JSON is valid 
+            echo "JSON is valid!";
+            // Now you can use $jsonData as a PHP object or array 
+        } else {
+            // JSON is invalid 
+            echo "upcomingresults JSON is invalid. Error: " . json_last_error_msg();
+        } 
+        
         $filePath = __DIR__ . '/upcomingresults.json';
         $result = file_put_contents($filePath, $jsonUpcoming);
         if ($result === false) {
