@@ -11,7 +11,7 @@
     <!-- should always be last-->
     <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="./css/bha.css" type="text/css">
-    <!------ Include the above in your HEAD tag ---------->
+    <!------ Include the above in your HEAD tag blah ---------->
 </head>
 
 <body>
