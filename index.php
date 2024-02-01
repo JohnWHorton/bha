@@ -11,7 +11,7 @@
     <!-- should always be last-->
     <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="./css/bha.css" type="text/css">
-    <!------ Include the above in your HEAD tag blah ---------->
+    <!------ Include the above in your HEAD tag ---------->
 </head>
 
 <body>
@@ -20,7 +20,8 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
+    <div id="comingbox" class="container comingcontainer modal modal-content"
+        style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
@@ -40,10 +41,12 @@
             </table>
         </div>
     </div>
-    <div id="comparebox" class="container comparecontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
+    <div id="comparebox" class="container comparecontainer modal modal-content"
+        style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <table class="table table-striped transtable">
+                <caption class="caption">Head to Head results</caption>
                 <thead class="sticky-top">
                     <tr style="background-color: black !important;">
                         <th>Name</th>
@@ -54,7 +57,8 @@
                         <th>Finnish</th>
                         <th>Jockey</th>
                         <th>Betting</th>
-                        <th><span class="close" aria-hidden="true" onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
+                        <th><span class="close" aria-hidden="true"
+                                onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
                     </tr>
                 </thead>
                 <tbody id="comparebody">
@@ -64,7 +68,8 @@
         </div>
     </div>
 
-    <div id="contactbox" class="container contactcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 5rem;">
+    <div id="contactbox" class="container contactcontainer modal modal-content"
+        style="display: none; border-radius: 0%; margin-top: 5rem;">
         <div class="close">
             <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
         </div>
@@ -93,7 +98,8 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" required="required" rows="5"></textarea>
+                            <textarea id="form_message" name="message" class="form-control" required="required"
+                                rows="5"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -109,7 +115,18 @@
             </div>
         </div>
     </div>
-
+    <div id="aboutusbox" class="container aboutcontainer modal modal-content"
+            style="display: none; border-radius: 0%; margin-top: 5rem;">
+            <div class="close">
+                <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
+            </div>
+            <div class="row">
+                <pre>
+                <div id="about" class="col-md-12"></div>
+                </pre>
+            </div>
+        </div>
+        
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
 
@@ -119,7 +136,7 @@
             <!-- Grid row -->
             <div class="row" style="margin-left: 20%; margin-right: 20%;">
                 <!-- Grid column -->
-                <div class="col mt-3"><a href="#!" onclick="hideAllBoxes(); about();">About</a>
+                <div class="col mt-3"><a href="#!" onclick="hideAllBoxes(); getAboutUs();">About</a>
                 </div>
                 <div class="col mt-3"><a href="#" onclick="hideAllBoxes(); $('#contactbox').show();">Contact Us</a>
                 </div>

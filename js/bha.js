@@ -200,7 +200,7 @@ function hideAllBoxes() {
   $("#comparebox").hide();
   $("#comingbox").hide();
   $("#contactbox").hide();
-  $("#aboutbox").hide();
+  $("#aboutusbox").hide();
   window.scrollTo(0, 0);
 }
 function sendEmail() {
@@ -250,6 +250,12 @@ function showMsg(m) {
   $(".msg").show();
 
   setTimeout(hideMsg, 5000);
+}
+function getAboutUs() {
+  fetch('contactus.txt')
+    .then(res => res.text())
+    .then(res => about.innerHTML = res);
+  $('#aboutusbox').show();
 }
 
 function showMsg(m) {

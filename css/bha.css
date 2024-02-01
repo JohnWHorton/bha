@@ -20,11 +20,13 @@ body {
   margin-top: 100px;
   /* opacity: 0.1; */
 }
+
 a {
   color: #fdfdfd;
   text-decoration: none;
   background-color: transparent;
 }
+
 .table td,
 .table thead {
   vertical-align: middle;
@@ -40,6 +42,7 @@ a {
   font-weight: normal;
   color: rgb(250, 248, 248);
 }
+
 .transtable {
   background-color: #000;
   font-family: "open-sans-light", sans-serif;
@@ -49,68 +52,79 @@ a {
   overflow: hidden !important;
   overflow-y: scroll !important;
 }
-.transtable > tbody > tr > td,
-.transtable > tbody > tr > th,
-.transtable > tfoot > tr > td,
-.transtable > tfoot > tr > th,
-.transtable > thead > tr > td,
-.transtable > thead > tr > th {
+
+.transtable>tbody>tr>td,
+.transtable>tbody>tr>th,
+.transtable>tfoot>tr>td,
+.transtable>tfoot>tr>th,
+.transtable>thead>tr>td,
+.transtable>thead>tr>th {
   border: none;
   padding: 0.25rem;
 }
-.transtable > thead > tr > td,
-.transtable > thead > tr {
+
+.transtable>thead>tr>td,
+.transtable>thead>tr {
   border-bottom: 2px solid red;
   margin-bottom: 10px;
 }
+
 .transtablehead {
   background-color: #000;
 }
+
 .comingcontainer {
-    /* display: flex; */
-    max-height: 500px;
-    background-color: black !important;
-    color: black;
-    margin-top: 50px;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    padding-top: 0%!important;
+  /* display: flex; */
+  max-height: 500px;
+  background-color: black !important;
+  color: black;
+  margin-top: 50px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
 }
+
 .rname {
-  color: rgb(255, 226, 226)!important;
+  color: rgb(255, 226, 226) !important;
 }
+
 .close {
   color: #ffffff;
   cursor: pointer;
 }
+
 a:hover {
   color: rgb(118, 118, 116);
 }
+
 .maxwidth {
-  max-width: 600px!important;
+  max-width: 600px !important;
 }
 
 .comparecontainer {
-    display: flex;
-    max-height: 500px;
-    background-color: black !important;
-    color: black;
-    margin-top: 50px;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    padding-top: 0%!important;
+  display: flex;
+  max-height: 500px;
+  background-color: black !important;
+  color: black;
+  margin-top: 50px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
 }
+
 .nextCompare {
   border-top: 2px solid rgb(252, 122, 122);
 }
+
 #headtext {
-  color: #ffffff!important;
-  margin-top: 1rem!important;
-  text-align: center!important;
+  color: #ffffff !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
   font-size: 14px;
 }
+
 .caption {
   font-size: 22px;
   text-align: center;
@@ -118,40 +132,65 @@ a:hover {
   padding: 0.125rem;
   color: rgb(255, 255, 255);
 }
-#nonefound {  
-  color: #ffffff!important;
-  margin-top: 1rem!important;
-  text-align: center!important;
+
+#nonefound {
+  color: #ffffff !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
   font-size: 18px;
 }
+
 #spinner {
-left: 50%;
-position: absolute;
-text-align: center;
-top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
 }
+
 .compare {
   cursor: pointer;
 }
+
 .contactcontainer {
-    display: flex;
-    max-width:50%;
-    max-height: 100%;
-    background-color: black !important;
-    color: white!important;
-    margin: auto;
-    margin-top: 50px;
-    /* height: 100%; */
-    overflow-x: hidden;
-    overflow-y: auto;
-    padding-top: 0%!important;
-    font-size: 14px;
-    padding: 2rem;
+  display: flex;
+  max-width: 50%;
+  max-height: 100%;
+  background-color: black !important;
+  color: white !important;
+  margin: auto;
+  margin-top: 50px;
+  /* height: 100%; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
+  font-size: 14px;
+  padding: 2rem;
 }
-#contact-form {  
-    font-size: 18px;
-    padding: 2rem;
+
+.aboutcontainer {
+  display: flex;
+  width: 50% !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  margin-top: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
 }
+
+#contact-form {
+  font-size: 18px;
+  padding: 2rem;
+}
+
+#about {
+  color: rgb(181, 181, 181);
+  font-family: "open-sans-light", sans-serif;
+  font-size: 18px;
+  padding: 0.125rem;
+  overflow-wrap: break-word;
+}
+
 /* Modal Content */
 .modal-content {
   /* background-color: #f30808; */
@@ -180,4 +219,11 @@ top: 50%;
 .modal-dialog {
   max-width: 100%;
   margin: 0 5px 0 7px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
