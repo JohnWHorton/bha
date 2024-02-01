@@ -138,14 +138,14 @@ function doCompare(r) {
   let comparetable = "";
   let raceName = "";
   if (uniq.length == 0) {
-    comparetable += `<tr><td id="nonefound" colspan="7">No previou encounters found.</td></tr>`;
+    comparetable += `<tr class="rname"><td class="rname" id="nonefound" colspan="7">No previou encounters found.</td></tr>`;
   } else {
     for (let i = 0; i < uniq.length; i++) {
       if (i > 0 && (uniq[i].raceId != uniq[i - 1].raceId || uniq[i].yearOfRace != uniq[i - 1].yearOfRace)) {
         comparetable += `<tr class="nextCompare"></tr>`;
       }
       if (uniq[i].raceName != raceName) {
-        comparetable += `<tr><td colspan="7">${uniq[i].raceName} - ${uniq[i].yearOfRace}</td></tr>`;
+        comparetable += `<tr class="rname"><td class="rname" colspan="7">${uniq[i].raceName} - ${uniq[i].yearOfRace}</td></tr>`;
         raceName = uniq[i].raceName;
       }
       // console.log(uniq[i].racehorseName, uniq[i].raceId, uniq[i].yearOfRace, uniq[i].resultFinishPos, uniq[i].bettingRatio, uniq[i].jockeyName, uniq[i].ageYear, uniq[i].weightValue, uniq[i].raceName);
@@ -195,5 +195,70 @@ function getRace(raceId, year) {
   $("#spinner").hide();
   return race;
 }
+function hideAllBoxes() {
+  $('.navbar .collapse').collapse('hide');
+  $("#comparebox").hide();
+  $("#comingbox").hide();
+  $("#contactbox").hide();
+  $("#aboutbox").hide();
+  window.scrollTo(0, 0);
+}
+function sendEmail() {
+  var parms = {
+    operation: "message",
+    emailaddr: $("#emailaddr").val(),
+    subject: $("#subject").val(),
+    message: $("#message").val()
+  };
+  let race = null;
+  $.ajax({
+    type: "POST",
+    async: false,
+    url: "./php/bhadb.php",
+    contentType: "application/json; charset=UTF-8",
+    dataType: "json",
+    data: JSON.stringify(parms),
+    success: function (response) {
+      showMsg("Message successfully sent");
+      console.log(response, race);
+    },
+    error: function (xhr, textStatus, error) {
+      console.log(xhr.statusText);
+      console.log(textStatus);
+      console.log(error);
+      showMsg("Message failed");
+    },
+  });
+  $("#spinner").hide();
+  return race;
+  // let dummyobj = {
+  //   SecureToken: "e897669f-4158-4aa8-9ec9-b427bb86a779",
+  //   To: "john.horton86@gmail.com",
+  //   From: "" + $("#emailaddr").val(),
+  //   Subject: "" + $("#subject").val(),
+  //   Body: "" + $("#message").val(),
+  // };
+  // console.log("dummyobj", dummyobj);
+  // Email.send(dummyobj).then(function (message) {
+    // showMsg("Email successfully sent");
+  // });
+  $("#contactbox").hide();
+  $("#comingbox").show();
+}
+function showMsg(m) {
+  $(".msg").html(m);
+  $(".msg").show();
 
+  setTimeout(hideMsg, 5000);
+}
+
+function showMsg(m) {
+  $(".msg").html(m);
+  $(".msg").show();
+
+  setTimeout(hideMsg, 5000);
+}
+function hideMsg() {
+  $(".msg").hide();
+}
 

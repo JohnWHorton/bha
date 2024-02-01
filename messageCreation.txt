@@ -1,0 +1,27 @@
+CREATE TABLE `messages` (
+  `id` int(11) NOT NULL,
+  `emailaddr` varchar(64) NOT NULL,
+  `subject` varchar(128) NOT NULL,
+  `message` varchar(10000) NOT NULL,
+  `datecreated` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `messages`
+--
+ALTER TABLE `messages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;

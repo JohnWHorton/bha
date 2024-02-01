@@ -29,7 +29,7 @@ a {
 .table thead {
   vertical-align: middle;
   /* border-bottom: 1px solid #ddd; */
-  color: #f6f8f9 !important;
+  color: #f6f8f9;
   text-align: left !important;
 }
 
@@ -56,6 +56,7 @@ a {
 .transtable > thead > tr > td,
 .transtable > thead > tr > th {
   border: none;
+  padding: 0.25rem;
 }
 .transtable > thead > tr > td,
 .transtable > thead > tr {
@@ -75,6 +76,13 @@ a {
     overflow-x: hidden;
     overflow-y: auto;
     padding-top: 0%!important;
+}
+.rname {
+  color: rgb(255, 226, 226)!important;
+}
+.close {
+  color: #ffffff;
+  cursor: pointer;
 }
 a:hover {
   color: rgb(118, 118, 116);
@@ -101,7 +109,14 @@ a:hover {
   color: #ffffff!important;
   margin-top: 1rem!important;
   text-align: center!important;
-  font-size: 18px;
+  font-size: 14px;
+}
+.caption {
+  font-size: 22px;
+  text-align: center;
+  caption-side: top;
+  padding: 0.125rem;
+  color: rgb(255, 255, 255);
 }
 #nonefound {  
   color: #ffffff!important;
@@ -117,4 +132,52 @@ top: 50%;
 }
 .compare {
   cursor: pointer;
+}
+.contactcontainer {
+    display: flex;
+    max-width:50%;
+    max-height: 100%;
+    background-color: black !important;
+    color: white!important;
+    margin: auto;
+    margin-top: 50px;
+    /* height: 100%; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 0%!important;
+    font-size: 14px;
+    padding: 2rem;
+}
+#contact-form {  
+    font-size: 18px;
+    padding: 2rem;
+}
+/* Modal Content */
+.modal-content {
+  /* background-color: #f30808; */
+  /* margin: 10px; */
+  padding: 20px;
+  border: 1px solid #b6bdb9;
+  width: 80%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+}
+
+.modal-header {
+  border-bottom: 0;
+  padding: 5px;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.myModal {
+  color: white;
+}
+
+.modal-dialog {
+  max-width: 100%;
+  margin: 0 5px 0 7px;
 }

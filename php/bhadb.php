@@ -24,6 +24,9 @@ $fixtureid = isset($request->fixtureid) ? $request->fixtureid : "";
 $fixtureyear = isset($request->fixtureyear) ? $request->fixtureyear : "";
 $fixturedate = isset($request->fixturedate) ? $request->fixturedate : "";
 $fixturetime = isset($request->fixturetime) ? $request->fixturetime : "";
+$emailaddr = isset($request->emailaddr) ? $request->emailaddr : "";
+$subject = isset($request->subject) ? $request->subject : "";
+$message = isset($request->message) ? $request->message : "";
 // testing stand alone
 // $operation = "getResults";
 // $operation = "getRace";
@@ -36,7 +39,11 @@ if ($operation == "getRace") {
   $resparr = getRace($conn, $raceid, $year);
 }
 
-echo json_encode($resparr);
+if ($operation == "message") {
+  $resparr = message($conn, $emailaddr, $subject, $message);
+}
+
+// echo json_encode($resparr);
 
 function getRace($conn, $raceid, $year)
 {
@@ -52,5 +59,20 @@ function getRace($conn, $raceid, $year)
   } else {
     array_push($resparr, [$sql]);
   }
+  return $resparr;
+}
+function message($conn,$emailaddr, $subject, $message)
+{
+  $resparr = array();
+  $sql = "INSERT INTO messages (emailaddr, subject, message)
+			VALUES
+			('$emailaddr','$subject', '$message')";
+
+  if ($conn->query($sql) === true) {
+    array_push($resparr, 'success', "added");
+  } else {
+    array_push($resparr, 'error', $sql);
+  }
+
   return $resparr;
 }
