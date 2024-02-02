@@ -9,8 +9,54 @@ var tabledata = [];
 
 $(document).ready(function () {
   getUpcoming();
+  getUserInfo();
 });
+function getUserInfo() {
+  var info = {
 
+    timeOpened: new Date(),
+    timezone: (new Date()).getTimezoneOffset() / 60,
+
+    pageon() { return window.location.pathname },
+    referrer() { return document.referrer },
+    previousSites() { return history.length },
+
+    browserName() { return navigator.appName },
+    browserEngine() { return navigator.product },
+    browserVersion1a() { return navigator.appVersion },
+    browserVersion1b() { return navigator.userAgent },
+    browserLanguage() { return navigator.language },
+    browserOnline() { return navigator.onLine },
+    browserPlatform() { return navigator.platform },
+    javaEnabled() { return navigator.javaEnabled() },
+    dataCookiesEnabled() { return navigator.cookieEnabled },
+    dataCookies1() { return document.cookie },
+    dataCookies2() { return decodeURIComponent(document.cookie.split(";")) },
+    dataStorage() { return localStorage },
+
+    sizeScreenW() { return screen.width },
+    sizeScreenH() { return screen.height },
+    sizeDocW() { return document.width },
+    sizeDocH() { return document.height },
+    sizeInW() { return innerWidth },
+    sizeInH() { return innerHeight },
+    sizeAvailW() { return screen.availWidth },
+    sizeAvailH() { return screen.availHeight },
+    scrColorDepth() { return screen.colorDepth },
+    scrPixelDepth() { return screen.pixelDepth },
+
+
+    latitude() { return position.coords.latitude },
+    longitude() { return position.coords.longitude },
+    accuracy() { return position.coords.accuracy },
+    altitude() { return position.coords.altitude },
+    altitudeAccuracy() { return position.coords.altitudeAccuracy },
+    heading() { return position.coords.heading },
+    speed() { return position.coords.speed },
+    timestamp() { return position.timestamp },
+  };
+  console.log("info", info);
+}
 function getUpcoming() {
 
   $.getJSON('upcoming.json', function (upcoming) {
@@ -203,14 +249,30 @@ function hideAllBoxes() {
   $("#aboutusbox").hide();
   window.scrollTo(0, 0);
 }
-function sendEmail() {
+function sendMessage() {
+
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  //var address = document.getElementById[email].value;
+  if (reg.test($("#emailaddr").val()) == false) {
+    showMsg2("Invalid Email Address");
+    return (false);
+  }
+  if ($("#subject").val() == "") {
+    showMsg2("Please enter a Subject");
+    return (false);
+  }
+  if ($("#message").val() == "") {
+    showMsg2("Please enter a Message");
+    return (false);
+  }
+
   var parms = {
     operation: "message",
     emailaddr: $("#emailaddr").val(),
     subject: $("#subject").val(),
     message: $("#message").val()
   };
-  let race = null;
+  let mess = null;
   $.ajax({
     type: "POST",
     async: false,
@@ -219,38 +281,22 @@ function sendEmail() {
     dataType: "json",
     data: JSON.stringify(parms),
     success: function (response) {
+      mess = response;
+      console.log("message", mess);
       showMsg("Message successfully sent");
-      console.log(response, race);
     },
     error: function (xhr, textStatus, error) {
       console.log(xhr.statusText);
       console.log(textStatus);
       console.log(error);
       showMsg("Message failed");
-    },
+    }
   });
-  $("#spinner").hide();
-  return race;
-  // let dummyobj = {
-  //   SecureToken: "e897669f-4158-4aa8-9ec9-b427bb86a779",
-  //   To: "john.horton86@gmail.com",
-  //   From: "" + $("#emailaddr").val(),
-  //   Subject: "" + $("#subject").val(),
-  //   Body: "" + $("#message").val(),
-  // };
-  // console.log("dummyobj", dummyobj);
-  // Email.send(dummyobj).then(function (message) {
-    // showMsg("Email successfully sent");
-  // });
+  $("#spinner").hide();  
   $("#contactbox").hide();
   $("#comingbox").show();
 }
-function showMsg(m) {
-  $(".msg").html(m);
-  $(".msg").show();
 
-  setTimeout(hideMsg, 5000);
-}
 function getAboutUs() {
   fetch('contactus.txt')
     .then(res => res.text())
@@ -266,5 +312,14 @@ function showMsg(m) {
 }
 function hideMsg() {
   $(".msg").hide();
+}
+function showMsg2(m) {
+  $(".msg2").html(m);
+  $(".msg2").show();
+
+  setTimeout(hideMsg2, 5000);
+}
+function hideMsg2() {
+  showMsg2(".");
 }
 

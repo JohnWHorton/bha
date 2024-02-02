@@ -20,8 +20,14 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-12" style="min-height: 60px; max-height: 60px;">
+            <div class="msg" style="text-align: center; display: none;">
+            </div>
+        </div>
+    </div>
     <div id="comingbox" class="container comingcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
+        style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
@@ -42,7 +48,7 @@
         </div>
     </div>
     <div id="comparebox" class="container comparecontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 5rem; opacity: 0.7;">
+        style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <table class="table table-striped transtable">
@@ -69,41 +75,37 @@
     </div>
 
     <div id="contactbox" class="container contactcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 5rem;">
+        style="display: none; border-radius: 0%; margin-top: 1rem;">
         <div class="close">
-            <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
+            <span style="right: 10px; text-align: right;" aria-hidden="true"
+                onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
         </div>
-        <div id="contact-form">
+        <div id="contact-form" style="text-align: left;">
             <div class="controls">
                 <div class="row">
+                    <div class="msg2">.</div>
                     <div class="col-sm-12">
                         <h4>Contact us</h4>
                         <p>If you would like information, have a complaint or suggestion, please let us know.</p>
-
                         <div class="form-group">
-                            <label for="form_name">Your email address *</label>
-                            <input id="form_name" type="text" name="emailaddr" class="form-control" required="required">
+                            <label for="emailaddr">Your email address *</label>
+                            <input id="emailaddr" type="email" name="emailaddr" class="form-control" required="required">
 
                         </div>
                         <div class="form-group">
-                            <label for="form_name">Subject *</label>
-                            <input id="form_name" type="text" name="subject" class="form-control" required="required">
+                            <label for="subject">Subject *</label>
+                            <input id="subject" type="text" name="subject" class="form-control" required="required">
 
                         </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-
-                <div class="row">
-                    <div class="col-md-12">
+                    
                         <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" required="required"
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" class="form-control" required="required"
                                 rows="5"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button class="btn btn-primary btn-send" onclick="sendEmail();">Send message</button>
+                        <button class="btn btn-primary btn-send" onclick="sendMessage();">Send message</button>
                     </div>
                 </div>
                 <div class="row">
@@ -116,17 +118,17 @@
         </div>
     </div>
     <div id="aboutusbox" class="container aboutcontainer modal modal-content"
-            style="display: none; border-radius: 0%; margin-top: 5rem;">
-            <div class="close">
-                <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
-            </div>
-            <div class="row">
-                <pre>
-                <div id="about" class="col-md-12"></div>
-                </pre>
-            </div>
+        style="display: none; border-radius: 0%; margin-top: 2rem;">
+        <div class="close">
+            <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
         </div>
-        
+        <div class="row">
+            <pre>
+                <div id="about"></div>
+            </pre>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
 

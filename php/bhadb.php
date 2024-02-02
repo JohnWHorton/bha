@@ -43,7 +43,7 @@ if ($operation == "message") {
   $resparr = message($conn, $emailaddr, $subject, $message);
 }
 
-// echo json_encode($resparr);
+echo json_encode($resparr);
 
 function getRace($conn, $raceid, $year)
 {

@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-position: center;
   overscroll-behavior-y: contain;
-  margin-top: 100px;
+  margin-top: 10px;
   /* opacity: 0.1; */
 }
 
@@ -153,18 +153,19 @@ a:hover {
 
 .contactcontainer {
   display: flex;
-  max-width: 50%;
+  max-width: 40%;
   max-height: 100%;
   background-color: black !important;
-  color: white !important;
-  margin: auto;
-  margin-top: 50px;
+  opacity: 0.8;
+  color: rgb(180, 180, 180) !important;
+  /* margin: auto; */
+  margin-top: 10px;
   /* height: 100%; */
   overflow-x: hidden;
   overflow-y: auto;
   padding-top: 0% !important;
   font-size: 14px;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .aboutcontainer {
@@ -190,11 +191,16 @@ a:hover {
   padding: 0.125rem;
   overflow-wrap: break-word;
 }
-
+.msg {
+  font-size: 1rem;
+  color: rgb(253, 245, 1);
+}
+.msg2 {
+  font-size: 0.8rem;
+  color: rgb(253, 245, 1);
+}
 /* Modal Content */
 .modal-content {
-  /* background-color: #f30808; */
-  /* margin: 10px; */
   padding: 20px;
   border: 1px solid #b6bdb9;
   width: 80%;
@@ -226,4 +232,13 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+@media (max-width: 1030px) {
+  .main-content {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  .contactuscontainer {
+    width: 100%!important;
+  }
 }
