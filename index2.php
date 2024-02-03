@@ -24,18 +24,17 @@
 </head>
 
 <body>
-    <div id="content" class="allcontent">
+
+    <div class="row">
         <div id="spinner" class="spinner-border text-danger" role="status">
             <span class="sr-only">Loading...</span>
         </div>
-    </div>
-    <div class="row">
         <div class="col-sm-12" style="min-height: 60px; max-height: 60px;">
             <div class="msg" style="text-align: center; display: none;">
             </div>
         </div>
     </div>
-    <div id="comingbox" class="container comingcontainer modal modal-content"
+    <div id="comingbox" class="container comingcontainer"
         style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
@@ -56,10 +55,13 @@
             </table>
         </div>
     </div>
-    <div id="comparebox" class="container comparecontainer modal modal-content"
+    <div id="comparebox" class="container comparecontainer"
         style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
+            <div><span class="close" aria-hidden="true" style="float: left!important;"
+                    onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span>
+            </div>
             <table class="table table-striped transtable">
                 <caption class="caption">Head to Head results</caption>
                 <thead class="sticky-top">
@@ -67,13 +69,10 @@
                         <th>Name</th>
                         <th>Age</th>
                         <th>weight</th>
-                        <!-- <th>Race Id</th> -->
                         <th>Year</th>
                         <th>Finnish</th>
                         <th>Jockey</th>
                         <th>Betting</th>
-                        <th><span class="close" aria-hidden="true"
-                                onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
                     </tr>
                 </thead>
                 <tbody id="comparebody">
@@ -83,13 +82,11 @@
         </div>
     </div>
 
-    <div id="contactbox" class="container contactcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 1rem;">
-        <div class="close">
-            <span style="right: 10px; text-align: right;" aria-hidden="true"
-                onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
-        </div>
+    <div id="contactbox" class="container contactcontainer" style="display: none; border-radius: 0%; margin-top: 1rem;">
         <div id="contact-form" style="text-align: left;">
+            <div><span class="close" aria-hidden="true" style="float: left!important;"
+                    onclick="$('#comingbox').show(); $('#contactbox').hide();">&times;</span>
+            </div>
             <div class="controls">
                 <div class="row">
                     <div class="msg2">.</div>
@@ -127,15 +124,12 @@
             </div>
         </div>
     </div>
-    <div id="aboutusbox" class="container aboutcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 2rem;">
-        <div class="close">
-            <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
-        </div>
+    <div id="aboutusbox" class="container aboutcontainer" style="display: none; border-radius: 0%; margin-top: 2rem;">
         <div class="row">
-            <pre>
-                <div id="about"></div>
-            </pre>
+            <div><span class="close" aria-hidden="true" style="float: left!important; margin: 15px;"
+                    onclick="$('#comingbox').show(); $('#aboutusbox').hide();">&times;</span>
+            </div>
+            <div id="about"></div>
         </div>
     </div>
 
