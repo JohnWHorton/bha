@@ -2,11 +2,23 @@
 <html>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT57DJ7228"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BT57DJ7228');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BHA</title>
+    <title>h2hracing</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
     <!-- should always be last-->
     <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
@@ -26,8 +38,7 @@
             </div>
         </div>
     </div>
-    <div id="comingbox" class="container comingcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
+    <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
@@ -47,8 +58,7 @@
             </table>
         </div>
     </div>
-    <div id="comparebox" class="container comparecontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
+    <div id="comparebox" class="container comparecontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <table class="table table-striped transtable">
@@ -63,8 +73,7 @@
                         <th>Finnish</th>
                         <th>Jockey</th>
                         <th>Betting</th>
-                        <th><span class="close" aria-hidden="true"
-                                onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
+                        <th><span class="close" aria-hidden="true" onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
                     </tr>
                 </thead>
                 <tbody id="comparebody">
@@ -74,11 +83,9 @@
         </div>
     </div>
 
-    <div id="contactbox" class="container contactcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 1rem;">
+    <div id="contactbox" class="container contactcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 1rem;">
         <div class="close">
-            <span style="right: 10px; text-align: right;" aria-hidden="true"
-                onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
+            <span style="right: 10px; text-align: right;" aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
         </div>
         <div id="contact-form" style="text-align: left;">
             <div class="controls">
@@ -97,11 +104,10 @@
                             <input id="subject" type="text" name="subject" class="form-control" required="required">
 
                         </div>
-                    
+
                         <div class="form-group">
                             <label for="message">Message *</label>
-                            <textarea id="message" name="message" class="form-control" required="required"
-                                rows="5"></textarea>
+                            <textarea id="message" name="message" class="form-control" required="required" rows="5"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -117,8 +123,7 @@
             </div>
         </div>
     </div>
-    <div id="aboutusbox" class="container aboutcontainer modal modal-content"
-        style="display: none; border-radius: 0%; margin-top: 2rem;">
+    <div id="aboutusbox" class="container aboutcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 2rem;">
         <div class="close">
             <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
         </div>
