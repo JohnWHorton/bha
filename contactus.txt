@@ -1,17 +1,20 @@
-<h4 style="text-align: center;">About h2hracing</h4>
-<div style="text-align: left;">
+<h4 style="text-align: center; font-weight: 700;">About h2hracing</h4>
+</br></br>
+<div style="display: flex; text-align: left; word-wrap: break-word; text-wrap: wrap;">
 This site is free to use. There is no Register, Login or payment required.
-
+</br></br>
 What we do is list the upcoming fixtures and races. If you select any race, all the runners 
 are searched for any previous meeting between them and any other runner in the selected 
 race.The results are then displayed.
-
+</br></br>
 Anyone who wants to make a bet on a horse race needs all the information available, and 
 this is just one piece of the puzzle.
-
-<b>Note:</b> Past performance is no guarantee of future performance, and many factors need 
+</br></br>
+NOTE: Past performance is no guarantee of future performance, and many factors need 
 to be considered.
- 
+</br>
+</br>
 h2hracing accepts no liability in any respect for the information displayed.
 </div>
-<h4 style="text-align: center;">Good Luck and happy racing!</h4>
+</br></br></br>
+<h4 style="text-align: center;font-weight: 700;">Good Luck and happy racing!</h4>

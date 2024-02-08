@@ -6,10 +6,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT57DJ7228"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-BT57DJ7228');
@@ -18,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>h2hracing</title>
+    <title>BHA</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
     <!-- should always be last-->
     <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
@@ -27,18 +24,18 @@
 </head>
 
 <body>
-    <div id="content" class="allcontent">
+
+    <div class="row">
         <div id="spinner" class="spinner-border text-danger" role="status">
             <span class="sr-only">Loading...</span>
         </div>
-    </div>
-    <div class="row">
         <div class="col-sm-12" style="min-height: 60px; max-height: 60px;">
             <div class="msg" style="text-align: center; display: none;">
             </div>
         </div>
     </div>
-    <div id="comingbox" class="container comingcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
+    <div id="comingbox" class="container comingcontainer"
+        style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
             <p id="headtext">Click on any Race to view previous head to head results of runners in this race</p>
@@ -58,9 +55,13 @@
             </table>
         </div>
     </div>
-    <div id="comparebox" class="container comparecontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
+    <div id="comparebox" class="container comparecontainer"
+        style="display: none; border-radius: 0%; margin-top: 2rem; opacity: 0.7;">
 
         <div class="container" style="overflow-x:auto;">
+            <div><span class="close" aria-hidden="true" style="float: left!important;"
+                    onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span>
+            </div>
             <table class="table table-striped transtable">
                 <caption class="caption">Head to Head results</caption>
                 <thead class="sticky-top">
@@ -68,12 +69,10 @@
                         <th>Name</th>
                         <th>Age</th>
                         <th>weight</th>
-                        <!-- <th>Race Id</th> -->
                         <th>Year</th>
                         <th>Finnish</th>
                         <th>Jockey</th>
                         <th>Betting</th>
-                        <th><span class="close" aria-hidden="true" onclick="$('#comingbox').show(); $('#comparebox').hide();">&times;</span></th>
                     </tr>
                 </thead>
                 <tbody id="comparebody">
@@ -83,11 +82,11 @@
         </div>
     </div>
 
-    <div id="contactbox" class="container contactcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 1rem;">
-        <div class="close">
-            <span style="right: 10px; text-align: right;" aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
-        </div>
+    <div id="contactbox" class="container contactcontainer" style="display: none; border-radius: 0%; margin-top: 1rem;">
         <div id="contact-form" style="text-align: left;">
+            <div><span class="close" aria-hidden="true" style="float: left!important;"
+                    onclick="$('#comingbox').show(); $('#contactbox').hide();">&times;</span>
+            </div>
             <div class="controls">
                 <div class="row">
                     <div class="msg2">.</div>
@@ -108,7 +107,8 @@
 
                         <div class="form-group">
                             <label for="message">Message *</label>
-                            <textarea id="message" name="message" class="form-control" required="required" rows="5"></textarea>
+                            <textarea id="message" name="message" class="form-control" required="required"
+                                rows="5"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -124,14 +124,12 @@
             </div>
         </div>
     </div>
-    <div id="aboutusbox" class="container aboutcontainer modal modal-content" style="display: none; border-radius: 0%; margin-top: 2rem;">
-        <div class="close">
-            <span aria-hidden="true" onclick="hideAllBoxes();$('#comingbox').show();">&times;</span>
-        </div>
+    <div id="aboutusbox" class="container aboutcontainer" style="display: none; border-radius: 0%; margin-top: 2rem;">
         <div class="row">
-            <pre>
-                <div id="about"></div>
-            </pre>
+            <div><span class="close" aria-hidden="true" style="float: left!important; margin: 15px;"
+                    onclick="$('#comingbox').show(); $('#aboutusbox').hide();">&times;</span>
+            </div>
+            <div id="about"></div>
         </div>
     </div>
 

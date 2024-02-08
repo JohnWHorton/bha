@@ -1,0 +1,262 @@
+body {
+  width: 100%;
+  /*	background: transparent;*/
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  font-family: "open-sans-light", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(250, 248, 248);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #fcfdfd !important;
+  background-image: url("../images/horse-race.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  overscroll-behavior-y: contain;
+  margin-top: 10px;
+  /* opacity: 0.1; */
+}
+
+a {
+  color: #fdfdfd;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.table td,
+.table thead {
+  vertical-align: middle;
+  /* border-bottom: 1px solid #ddd; */
+  color: #f6f8f9;
+  text-align: left !important;
+}
+
+.table {
+  background-color: #000;
+  font-family: "open-sans-light", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(250, 248, 248);
+}
+
+.transtable {
+  background-color: #000;
+  font-family: "open-sans-light", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(250, 248, 248);
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+}
+
+.transtable>tbody>tr>td,
+.transtable>tbody>tr>th,
+.transtable>tfoot>tr>td,
+.transtable>tfoot>tr>th,
+.transtable>thead>tr>td,
+.transtable>thead>tr>th {
+  border: none;
+  padding: 0.25rem;
+}
+
+.transtable>thead>tr>td,
+.transtable>thead>tr {
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+}
+
+.transtablehead {
+  background-color: #000;
+}
+
+.comingcontainer {
+  /* display: flex; */
+  max-height: 500px;
+  background-color: black !important;
+  color: black;
+  margin-top: 50px;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  padding-top: 0% !important;
+}
+
+.rname {
+  color: rgb(255, 226, 226) !important;
+}
+
+.close {
+  color: #ffffff;
+  cursor: pointer;
+  float: left !important;
+}
+
+a:hover {
+  color: rgb(118, 118, 116);
+}
+
+.maxwidth {
+  max-width: 600px !important;
+}
+
+.comparecontainer {
+  display: flex;
+  max-height: 500px;
+  background-color: black !important;
+  color: black;
+  margin-top: 50px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
+}
+.contactcontainer {
+  display: flex;
+  max-width: 40%;
+  max-height: 100%;
+  background-color: black !important;
+  opacity: 0.8;
+  color: rgb(180, 180, 180) !important;
+  margin-top: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
+  font-size: 14px;
+  padding: 1.5rem;
+}
+.aboutcontainer {
+  display: flex;
+  width: 50% !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  margin-top: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 0% !important;
+}
+.nextCompare {
+  border-top: 2px solid rgb(252, 122, 122);
+}
+
+#headtext {
+  color: #ffffff !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
+  font-size: 14px;
+}
+
+.caption {
+  font-size: 22px;
+  text-align: center;
+  caption-side: top;
+  padding: 0.125rem;
+  color: rgb(255, 255, 255);
+}
+
+#nonefound {
+  color: #ffffff !important;
+  margin-top: 1rem !important;
+  text-align: center !important;
+  font-size: 18px;
+}
+
+#spinner {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
+
+.compare {
+  cursor: pointer;
+}
+
+#contact-form {
+  font-size: 18px;
+  padding: 2rem;
+}
+
+#about {
+  color: rgb(181, 181, 181);
+  font-family: "open-sans-light", sans-serif;
+  font-size: 18px;
+  padding: 0.125rem;
+  overflow-wrap: break-word;
+}
+.msg {
+  font-size: 1rem;
+  color: rgb(253, 245, 1);
+}
+.msg2 {
+  font-size: 0.8rem;
+  color: rgb(253, 245, 1);
+}
+/* Modal Content */
+.modal-content {
+  padding: 20px;
+  border: 1px solid #b6bdb9;
+  width: 80%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+}
+
+.modal-header {
+  border-bottom: 0;
+  padding: 5px;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.myModal {
+  color: white;
+}
+
+.modal-dialog {
+  max-width: 100%;
+  margin: 0 5px 0 7px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 1030px) {
+  .main-content {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  .comparecontainer {
+    border-radius: 0%;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%!important;
+    max-width: unset;
+  }
+  .comingcontainer {
+    border-radius: 0%;
+    margin-top: 0,5rem;
+    opacity: 0.7;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%!important;
+    max-width: unset;
+  }
+  .contactuscontainer {
+    width: 100%!important;
+    max-width: unset;
+  }
+  .aboutcontainer {
+    width: 100% !important;
+    max-width: unset;
+}
