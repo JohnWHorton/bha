@@ -55,7 +55,7 @@ function doUpcoming($conn)
     $fixtures = $tmp;
     $upcoming->fixtures = $fixtures;
     //get races per fixture
-    for ($a = 2; $a < count($fixtures); $a++) {
+    for ($a = 0; $a < count($fixtures); $a++) {
         $fixyear = $fixtures[$a]["fixtureYear"];
         $fixtureId = $fixtures[$a]["fixtureId"];
         if ($fixtures[$a]["abandonedReasonCode"] == 0) {
@@ -65,10 +65,10 @@ function doUpcoming($conn)
             for ($t = 0; $t < count($r); $t++) {
                 $r[$t]["fixtureId"] = $fixtureId;
             }
-            // var_dump($r);
             array_push($races, $r);
         }
     }
+    
     $upcoming->races = $races;
 
     //get entries per race
@@ -111,7 +111,7 @@ function doUpcoming($conn)
         if ($result === false) {
             throw new Exception('Error writing to file.');
         }
-        echo 'Data written to file successfully.';
+        echo 'Data written to file successfully.' . "\n";
     } catch (Exception $e) {
         echo 'Caught exception: ' . $e->getMessage() . "\n";
     }
